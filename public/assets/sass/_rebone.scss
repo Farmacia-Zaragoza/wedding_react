@@ -1,0 +1,86 @@
+// remobe one
+section.ribone-border-1,
+section.ribone-border-2,
+section.ribone-border-3,
+section.ribone-border-4{
+    position: relative;
+}
+// rebone top
+section.ribone-border-1::before {
+    content: "";
+    width: 100%;
+    height: 15px;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    margin-top:0px;
+}
+// ribone laft
+section.ribone-border-2::before {
+    content: "";
+    width: 15px;
+    height: 500px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+}
+// ribone right
+section.ribone-border-4::before {
+    content: "";
+    width: 15px;
+    height: 500px;
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+// ribone bottom
+section.ribone-border-3::before {
+    content: "";
+    width: 100%;
+    height: 15px;
+    position: absolute;
+    right: 0;
+    bottom: 18px;
+}
+
+// rebone flower top left
+section.ribone-border-1::after {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    margin-top: 0px;
+    margin-left: -50px;
+    z-index: 1;
+}
+
+// rebone flower bottom right
+section.ribone-border-3::after {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: -50px;
+    margin-bottom: 0px;
+}
+
+
+
+
+// rebone only for mobile devices
+.mobile-ribone{
+    width: 100%;
+    height: 15px;
+    position: relative;
+    right: 0;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px 0px #fff;
+    top: 0px;
+    background-color: #DFA960;
+}

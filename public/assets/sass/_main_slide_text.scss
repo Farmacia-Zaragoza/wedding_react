@@ -1,0 +1,37 @@
+.main-slide-text-container {
+
+}
+
+
+.scroll-inner-container{
+    position: relative;
+}
+.scroll-inner-container{
+    overflow: auto;
+}
+.social-image-area {
+    background-color: #eaeaea;
+    padding: 15px 15px 15px 15px;
+    text-align: justify;
+}
+.social-image-area p{
+
+}
+.social-image-area img{
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+
+// for chorme hide scroll-bar
+.scroll-inner-container::-webkit-scrollbar{
+    display: none;
+    position: absolute;
+}
+
+.social-image-area p:nth-child(odd) {
+    color: #605E1A;
+}
+
+.social-image-area p:nth-child(even) {
+    color: #581A7D;
+}
