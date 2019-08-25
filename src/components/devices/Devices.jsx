@@ -5,6 +5,7 @@ setDefaultBreakpoints([
 	{ mobileS: 320 },
 	{ mobileM: 375 },
 	{ mobileL: 425 },
+	{ tabletS: 525 },
 	{ tablet: 768 },
 	{ laptop: 1024 },
 	{ laptopL: 1440 },

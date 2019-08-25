@@ -3,44 +3,53 @@ import React from "react";
 import Breakpoint, { BreakpointProvider } from "react-socks";
 import "./index.css";
 
-import DesktopBackground from "./components/bodyBackgroundImage/WeddingBackground";
+import Background from "./components/bodyBackgroundImage/WeddingBackground";
+import TabletBackgrond from "./components/bodyBackgroundImage/TabletBackgrond";
+import MobileBackground from "./components/bodyBackgroundImage/MobileBackground";
 
 function App() {
 	return (
 		<BreakpointProvider>
-			{/* <React.Fragment>
-				<Breakpoint>
-					<DesktopBackground />
-				</Breakpoint>
-			</React.Fragment> */}
+			{/* <Breakpoint mobileS>
+				<React.Fragment>
+					<MobileBackground />
+				</React.Fragment>
+			</Breakpoint> */}
 
-			<div>
-				<Breakpoint mobileS>
-					<div>mobileS 320</div>
-				</Breakpoint>
+			{/* <Breakpoint mobileM>
+				<React.Fragment>
+					<MobileBackground />
+				</React.Fragment>
+			</Breakpoint> */}
 
-				<Breakpoint mobileM>
-					<div>mobileM 375</div>
-				</Breakpoint>
+			<Breakpoint mobileL down>
+				<React.Fragment>
+					<MobileBackground />
+				</React.Fragment>
+			</Breakpoint>
 
-				<Breakpoint mobileL>
-					<div>mobileL 425</div>
-				</Breakpoint>
+			<Breakpoint tabletS>
+				<React.Fragment>
+					<TabletBackgrond />
+				</React.Fragment>
+			</Breakpoint>
+			<Breakpoint tablet>
+				<React.Fragment>
+					<TabletBackgrond />
+				</React.Fragment>
+			</Breakpoint>
 
-				<Breakpoint tablet>
-					<div>tablet 768</div>
-				</Breakpoint>
-
-				<Breakpoint laptop>
-					<div>laptop: 1024</div>
-				</Breakpoint>
-				<Breakpoint laptopL>
-					<div>laptopL: 1440</div>
-				</Breakpoint>
-				<Breakpoint desktop>
-					<div>desktop: 2560</div>
-				</Breakpoint>
-			</div>
+			<Breakpoint laptop>
+				<React.Fragment>
+					<Background />
+				</React.Fragment>
+			</Breakpoint>
+			<Breakpoint laptopL>
+				<div>laptopL: 1440</div>
+			</Breakpoint>
+			<Breakpoint desktop>
+				<div>desktop: 2560</div>
+			</Breakpoint>
 		</BreakpointProvider>
 	);
 }

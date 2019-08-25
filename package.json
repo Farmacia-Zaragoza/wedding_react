@@ -11,6 +11,7 @@
 		"reset-css": "^4.0.1",
 		"styled-components": "^4.3.2"
 	},
+	"homepage": "http://wedding03.vbrqx.com/dev/",
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
