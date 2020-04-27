@@ -5,7 +5,7 @@ import FooterSection from "./FooterSection";
 export class MobileBottomSection extends Component {
 	render() {
 		return (
-			<Mobilebottomcontainer>
+			<Mobilebottomcontainer className="mobile-bottom-section">
 				{/* <FlagContainer /> */}
 				<FooterSection />
 			</Mobilebottomcontainer>
@@ -17,7 +17,9 @@ export default MobileBottomSection;
 
 const Mobilebottomcontainer = styled.div`
 	position: absolute;
-	width: 100%;
+	width: 90%;
 	bottom: 0;
-	left: 0;
+	left: 50%;
+	margin-bottom: 15px;
+	transform: translate(-50%, 0%);
 `;

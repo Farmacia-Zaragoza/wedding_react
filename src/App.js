@@ -2,10 +2,10 @@ import React from "react";
 // React-Socks uses only for responsive components
 import Breakpoint, { BreakpointProvider } from "react-socks";
 import "./index.css";
-
 import Background from "./components/bodyBackgroundImage/WeddingBackground";
 import TabletBackgrond from "./components/bodyBackgroundImage/TabletBackgrond";
 import MobileBackground from "./components/bodyBackgroundImage/MobileBackground";
+import LaptopBackground from "./components/bodyBackgroundImage/LaptopBackground";
 
 function App() {
 	return (
@@ -41,14 +41,20 @@ function App() {
 
 			<Breakpoint laptop>
 				<React.Fragment>
-					<Background />
+					<LaptopBackground />
 				</React.Fragment>
 			</Breakpoint>
 			<Breakpoint laptopL>
-				<div>laptopL: 1440</div>
+				{/* this is for test perpous  */}
+				<LaptopBackground />
+				{/* <div>laptopL: 1440</div> */}
+				{/* <Background /> */}
 			</Breakpoint>
 			<Breakpoint desktop>
-				<div>desktop: 2560</div>
+				{/* this is for test perpous  */}
+				<LaptopBackground />
+				{/* <div>desktop: 2560</div> */}
+				{/* <Background /> */}
 			</Breakpoint>
 		</BreakpointProvider>
 	);

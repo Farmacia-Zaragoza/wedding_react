@@ -6,9 +6,9 @@ import FooterSection from "./FooterSection";
 export class TabletBottomSection extends Component {
 	render() {
 		return (
-			<Tabletbottomcontainer>
-				<FlagContainer />
-				<FooterSection />
+			<Tabletbottomcontainer className="tablet-botom-container">
+				<FlagContainer className="tablet-flag-container" />
+				<FooterSection className="tablet-search-and-social-btn" />
 			</Tabletbottomcontainer>
 		);
 	}

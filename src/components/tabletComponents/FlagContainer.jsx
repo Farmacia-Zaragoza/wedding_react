@@ -5,139 +5,139 @@ class FlagContainer extends Component {
 	render() {
 		return (
 			<Flagcontainerdesign>
-				<div className='flag-container-wrapper'>
+				<div className="flag-container-wrapper">
 					<Tabletarrowleft />
-					<div className='flag-container'>
+					<div className="flag-container">
 						<ul>
 							<li>
-								<a href='#'>
+								<a href="#">
 									<img
 										src={
 											process.env.PUBLIC_URL +
 											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										}
-										alt='wedding left logos'
+										alt="wedding left logos"
 									/>
 								</a>
 							</li>
 							<li>
-								<a href='#'>
+								<a href="#">
 									<img
 										src={
 											process.env.PUBLIC_URL +
 											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										}
-										alt='wedding left logos'
+										alt="wedding left logos"
 									/>
 								</a>
 							</li>
 							<li>
-								<a href='#'>
+								<a href="#">
 									<img
 										src={
 											process.env.PUBLIC_URL +
 											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										}
-										alt='wedding left logos'
+										alt="wedding left logos"
 									/>
 								</a>
 							</li>
 							<li>
-								<a href='#'>
+								<a href="#">
 									<img
 										src={
 											process.env.PUBLIC_URL +
 											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										}
-										alt='wedding left logos'
+										alt="wedding left logos"
 									/>
 								</a>
 							</li>
 							<li>
-								<a href='#'>
+								<a href="#">
 									<img
 										src={
 											process.env.PUBLIC_URL +
 											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										}
-										alt='wedding left logos'
+										alt="wedding left logos"
 									/>
 								</a>
 							</li>
 							<li>
-								<a href='#'>
+								<a href="#">
 									<img
 										src={
 											process.env.PUBLIC_URL +
 											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										}
-										alt='wedding left logos'
+										alt="wedding left logos"
 									/>
 								</a>
 							</li>
 							<li>
-								<a href='#'>
+								<a href="#">
 									<img
 										src={
 											process.env.PUBLIC_URL +
 											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										}
-										alt='wedding left logos'
+										alt="wedding left logos"
 									/>
 								</a>
 							</li>
 							<li>
-								<a href='#'>
+								<a href="#">
 									<img
 										src={
 											process.env.PUBLIC_URL +
 											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										}
-										alt='wedding left logos'
+										alt="wedding left logos"
 									/>
 								</a>
 							</li>
 							<li>
-								<a href='#'>
+								<a href="#">
 									<img
 										src={
 											process.env.PUBLIC_URL +
 											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										}
-										alt='wedding left logos'
+										alt="wedding left logos"
 									/>
 								</a>
 							</li>
 							<li>
-								<a href='#'>
+								<a href="#">
 									<img
 										src={
 											process.env.PUBLIC_URL +
 											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										}
-										alt='wedding left logos'
+										alt="wedding left logos"
 									/>
 								</a>
 							</li>
 							<li>
-								<a href='#'>
+								<a href="#">
 									<img
 										src={
 											process.env.PUBLIC_URL +
 											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										}
-										alt='wedding left logos'
+										alt="wedding left logos"
 									/>
 								</a>
 							</li>
 							<li>
-								<a href='#'>
+								<a href="#">
 									<img
 										src={
 											process.env.PUBLIC_URL +
 											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										}
-										alt='wedding left logos'
+										alt="wedding left logos"
 									/>
 								</a>
 							</li>
@@ -151,11 +151,11 @@ class FlagContainer extends Component {
 }
 
 export default FlagContainer;
-
+// background - color: #faf1bc;
 const Flagcontainerdesign = styled.div`
 	.flag-container-wrapper {
 		width: 100%;
-		background-color: #faf1bc;
+
 		.flag-container {
 			width: 80%;
 			position: relative;
@@ -201,9 +201,9 @@ const Tabletarrowleft = styled.div`
 	background-size: contain;
 	background-position: center;
 	position: absolute;
-	transform: translate(0%, -90%);
+	transform: translate(0%, 50%);
 	left: 0%;
-	top: 50%;
+	top: 0%;
 	cursor: pointer;
 `;
 
@@ -215,8 +215,8 @@ const Tabletarrowright = styled.div`
 	background-size: contain;
 	background-position: center;
 	position: absolute;
-	transform: translate(0%, -90%);
+	transform: translate(0%, 50%);
 	right: 0%;
 	cursor: pointer;
-	top: 50%;
+	top: 0%;
 `;

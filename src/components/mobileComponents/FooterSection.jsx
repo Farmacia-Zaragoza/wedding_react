@@ -5,66 +5,66 @@ class FooterSection extends Component {
 	render() {
 		return (
 			<Footercontainer>
-				<div className='footer-container'>
-					<div className='social-icon-area'>
-						<div className='social-image'>
+				<div className="footer-container">
+					<div className="social-icon-area">
+						<div className="social-image">
 							<img
 								src={
 									process.env.PUBLIC_URL +
 									"/img/war_symbols/brqx_cookies_war_050_2017.png"
 								}
-								alt='wedding left logos'
+								alt="wedding left logos"
 							/>
 						</div>
-						<div className='social-image'>
+						<div className="social-image">
 							<img
 								src={
 									process.env.PUBLIC_URL +
 									"/img/war_symbols/brqx_cookies_war_050_2017.png"
 								}
-								alt='wedding left logos'
+								alt="wedding left logos"
 							/>
 						</div>
-						<div className='social-image'>
+						<div className="social-image">
 							<img
 								src={
 									process.env.PUBLIC_URL +
 									"/img/war_symbols/brqx_cookies_war_050_2017.png"
 								}
-								alt='wedding left logos'
+								alt="wedding left logos"
 							/>
 						</div>
-						<div className='social-image'>
+						<div className="social-image">
 							<img
 								src={
 									process.env.PUBLIC_URL +
 									"/img/war_symbols/brqx_cookies_war_050_2017.png"
 								}
-								alt='wedding left logos'
+								alt="wedding left logos"
 							/>
 						</div>
-						<div className='social-image'>
+						<div className="social-image">
 							<img
 								src={
 									process.env.PUBLIC_URL +
 									"/img/war_symbols/brqx_cookies_war_050_2017.png"
 								}
-								alt='wedding left logos'
+								alt="wedding left logos"
 							/>
 						</div>
-						<div className='social-image'>
+						<div className="social-image">
 							<img
 								src={
 									process.env.PUBLIC_URL +
 									"/img/war_symbols/brqx_cookies_war_050_2017.png"
 								}
-								alt='wedding left logos'
+								alt="wedding left logos"
 							/>
 						</div>
 					</div>
-					<div className='search-bar-area'>
-						<form action=''>
-							<input type='text' />
+					<div className="mobile-search-bar">
+						<form action="">
+							<input type="text" />
 						</form>
 					</div>
 				</div>
@@ -79,9 +79,9 @@ const Footercontainer = styled.div`
 	.footer-container {
 		display: grid;
 		grid-template-columns: 70% 30%;
-		padding: 1rem 0rem 1rem 1rem;
+		padding: 0rem 0rem 0rem 0rem;
 	}
-	.search-bar-area input {
+	.mobile-search-bar input {
 		width: 100%;
 		height: 30px;
 		border: 0px;

@@ -7,13 +7,13 @@ $(document).ready(function() {
 	//  glabally for thit wedding site
 	//  -------------------------------------------------------------------------
 	function makeid() {
-		var text = '';
+		var text = "";
 		var possible =
-			'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+			"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
 		for (var i = 0; i < 5; i++)
 			text += possible.charAt(
-				Math.floor(Math.random() * possible.length),
+				Math.floor(Math.random() * possible.length)
 			);
 
 		return text;
@@ -23,23 +23,23 @@ $(document).ready(function() {
 	// paragraph scroll-up "upore" function start here
 	// -----------------------------------------------
 	function verticalSlideUp() {
-		$('.scroll-inner-container').each(function() {
+		$(".scroll-inner-container").each(function() {
 			let id = makeid();
 			var div = $(this);
 			div.stop();
-			$(this).attr('id', id);
+			$(this).attr("id", id);
 			var remHeight = div[0].scrollHeight - $(this).height();
 			var scrollableHeight = remHeight - div.scrollTop();
 			var pos = div.scrollTop();
 			var remainingTime = ((remHeight - pos) * 100) / 5; //here 5 is a speed
 			div.animate(
 				{
-					scrollTop: remHeight,
+					scrollTop: remHeight
 				},
 				{
 					duration: remainingTime,
-					easing: 'linear',
-				},
+					easing: "linear"
+				}
 			);
 		});
 	}
@@ -47,11 +47,11 @@ $(document).ready(function() {
 	// paragraph scroll-down "neche" function start here
 	// -----------------------------------------------
 	function verticalSlideDown() {
-		$('.scroll-inner-container').each(function() {
+		$(".scroll-inner-container").each(function() {
 			let id = makeid();
 			var div = $(this);
 			div.stop();
-			$(this).attr('id', id);
+			$(this).attr("id", id);
 			var remHeight = div[0].scrollHeight - $(this).height();
 			var scrollableHeight = remHeight - div.scrollTop();
 			var pos = div.scrollTop();
@@ -59,12 +59,12 @@ $(document).ready(function() {
 
 			div.animate(
 				{
-					scrollTop: 0,
+					scrollTop: 0
 				},
 				{
 					duration: remainingTime,
-					easing: 'linear',
-				},
+					easing: "linear"
+				}
 			);
 		});
 	}
@@ -72,7 +72,7 @@ $(document).ready(function() {
 
 	// mouse movement exucution start here .when mouse hover over 10% top or 10% bottom then scroll up/down start
 	// ----------------------------------------------------------------------------------------------------------
-	var obj = $('.scroll-inner-container');
+	var obj = $(".scroll-inner-container");
 	var top, left, bottom, right;
 	var excldH, objHeight, objWidth;
 	// Get position of the div 'scroll-inner-container'
@@ -105,7 +105,7 @@ $(document).ready(function() {
 		} else if (posY > bottom - excldH && disableAutoScroll == true) {
 			verticalSlideUp();
 		} else {
-			var div = $('.scroll-inner-container');
+			var div = $(".scroll-inner-container");
 			div.stop();
 		}
 	}
@@ -116,15 +116,15 @@ $(document).ready(function() {
 	let scrollSpeed = 10;
 
 	function horizontal_Menu_Width() {
-		$('.wedding-menu-left-outer').each(function() {
+		$(".wedding-menu-left-outer").each(function() {
 			let id = makeid();
-			$(this).attr('id', id);
+			$(this).attr("id", id);
 			//total width of horizontal menu with 2 arrow.
 			let horizontalMenuWidth = $(this).width();
-			console.log('horizontal-menu : ' + horizontalMenuWidth);
+			console.log("horizontal-menu : " + horizontalMenuWidth);
 			// width of the arrow
 			let horizontalMenuArrowWidth = $(this)
-				.children('i')
+				.children("i")
 				.outerWidth(true);
 			// console.log("horizontalMenuArrowWidth " + horizontalMenuArrowWidth);
 			// total-width - 2 arrow-width = menu-container width;
@@ -132,35 +132,35 @@ $(document).ready(function() {
 				horizontalMenuWidth - horizontalMenuArrowWidth * 2;
 			// console.log(mainContainerWidth);
 			$(this)
-				.children('.wedding-menu-left-inner')
-				.css('width', mainContainerWidth);
+				.children(".wedding-menu-left-inner")
+				.css("width", mainContainerWidth);
 		});
 	}
 	// initialization horizontal menu width function
 	// horizontal_Menu_Width();
 	// for left menu
 	// -----------------
-	$('.wedding-menu-left-outer > i').on('mouseenter', function() {
+	$(".wedding-menu-left-outer > i").on("mouseenter", function() {
 		// init class,ID on valiable when mouse inter
 		let horizontalMenuParentID = $(this).parent(
-			'.wedding-menu-left-outer',
+			".wedding-menu-left-outer"
 		)[0].id;
-		let leftArrow = $(this).hasClass('left-arrow');
-		let rightArrow = $(this).hasClass('right-arrow');
+		let leftArrow = $(this).hasClass("left-arrow");
+		let rightArrow = $(this).hasClass("right-arrow");
 
 		// need to find total width of "menu-inner-container" class
 		let horizontalMenuScrollableWidth = $(
-			'#' +
+			"#" +
 				horizontalMenuParentID +
-				' >.wedding-menu-left-inner>.main-menu-left',
+				" >.wedding-menu-left-inner>.main-menu-left"
 		)[0].scrollWidth;
 		console.log(horizontalMenuScrollableWidth);
 
 		//need to find out visible width of "menu-inner-container" class
 		let menuInnerContainerWidth = $(
-			'#' +
+			"#" +
 				horizontalMenuParentID +
-				' >.wedding-menu-left-inner>.main-menu-left',
+				" >.wedding-menu-left-inner>.main-menu-left"
 		).width();
 		console.log(menuInnerContainerWidth);
 
@@ -173,38 +173,38 @@ $(document).ready(function() {
 		let scrollableMenu =
 			horizontalMenuScroll -
 			$(
-				'#' +
+				"#" +
 					horizontalMenuParentID +
-					' >.wedding-menu-left-inner>.main-menu-left',
+					" >.wedding-menu-left-inner>.main-menu-left"
 			).scrollLeft();
-		console.log('scrollableMenu : ' + scrollSpeed * scrollableMenu);
+		console.log("scrollableMenu : " + scrollSpeed * scrollableMenu);
 		// when mouse inter in right-arrow then scroll start
 		if (rightArrow) {
 			$(
-				'#' +
+				"#" +
 					horizontalMenuParentID +
-					' >.wedding-menu-left-inner>.main-menu-left',
+					" >.wedding-menu-left-inner>.main-menu-left"
 			).animate(
 				{
-					scrollLeft: horizontalMenuScroll,
+					scrollLeft: horizontalMenuScroll
 				},
-				scrollSpeed * scrollableMenu,
+				scrollSpeed * scrollableMenu
 			);
 		} else if (leftArrow) {
 			$(
-				'#' +
+				"#" +
 					horizontalMenuParentID +
-					' >.wedding-menu-left-inner>.main-menu-left',
+					" >.wedding-menu-left-inner>.main-menu-left"
 			).animate(
 				{
-					scrollLeft: 0,
+					scrollLeft: 0
 				},
 				scrollSpeed *
 					$(
-						'#' +
+						"#" +
 							horizontalMenuParentID +
-							' >.wedding-menu-left-inner>.main-menu-left',
-					).scrollLeft(),
+							" >.wedding-menu-left-inner>.main-menu-left"
+					).scrollLeft()
 			);
 		}
 
@@ -227,14 +227,14 @@ $(document).ready(function() {
 
 	// when mouse leave from arrow then scroll should stop
 
-	$('.wedding-menu-left-outer > i').on('mouseleave', function() {
+	$(".wedding-menu-left-outer > i").on("mouseleave", function() {
 		let horizontalMenuParentID = $(this).parent(
-			'.wedding-menu-left-outer',
+			".wedding-menu-left-outer"
 		)[0].id;
 		$(
-			'#' +
+			"#" +
 				horizontalMenuParentID +
-				' >.wedding-menu-left-inner>.main-menu-left',
+				" >.wedding-menu-left-inner>.main-menu-left"
 		).stop();
 	});
 
@@ -282,8 +282,8 @@ $(document).ready(function() {
 	const speed = 3000;
 
 	function slideLeft() {
-		sliderContainer = '.menu-left';
-		RsliderContainer = '.menu-right';
+		sliderContainer = ".menu-left";
+		RsliderContainer = ".menu-right";
 		remLength =
 			$(sliderContainer)[0].scrollWidth - $(sliderContainer).width();
 		scrollable = remLength - $(sliderContainer).scrollLeft();
@@ -292,80 +292,80 @@ $(document).ready(function() {
 		Rscrollable = RremLength - $(RsliderContainer).scrollLeft();
 		$(sliderContainer).animate(
 			{
-				scrollLeft: remLength,
+				scrollLeft: remLength
 			},
-			speed,
+			speed
 		);
 
 		$(RsliderContainer).animate(
 			{
-				scrollLeft: RremLength,
+				scrollLeft: RremLength
 			},
-			speed,
+			speed
 		);
 	}
 
 	function slideRight() {
-		sliderContainer = $('.menu-left');
-		RsliderContainer = $('.menu-right');
+		sliderContainer = $(".menu-left");
+		RsliderContainer = $(".menu-right");
 		$(sliderContainer).animate(
 			{
-				scrollLeft: 0,
+				scrollLeft: 0
 			},
-			speed,
+			speed
 		);
 		$(RsliderContainer).animate(
 			{
-				scrollLeft: 0,
+				scrollLeft: 0
 			},
-			speed,
+			speed
 		);
 	}
 
-	$('.right-arrow').on('mouseover', slideLeft);
-	$('.left-arrow').on('mouseover', slideRight);
+	$(".right-arrow").on("mouseover", slideLeft);
+	$(".left-arrow").on("mouseover", slideRight);
 
 	function stop() {
-		$('.menu-left').stop();
-		$('.menu-right').stop();
+		$(".menu-left").stop();
+		$(".menu-right").stop();
 	}
 
-	$('.right-arrow, .left-arrow').on('mouseout', stop);
+	$(".right-arrow, .left-arrow").on("mouseout", stop);
 
 	// for mobile devices menu function
 	// ------------------------------------------
 
 	function slideLeftForMobile() {
-		sliderContainer = '.mobile-menu-width';
+		sliderContainer = ".mobile-menu-width";
 		remLength =
 			$(sliderContainer)[0].scrollWidth - $(sliderContainer).width();
 		scrollable = remLength - $(sliderContainer).scrollLeft();
 		$(sliderContainer).animate(
 			{
-				scrollLeft: remLength,
+				scrollLeft: remLength
 			},
-			speed,
+			speed
 		);
 	}
 
 	function slideRightForMobile() {
-		sliderContainer = $('.mobile-menu-width');
+		sliderContainer = $(".mobile-menu-width");
 		$(sliderContainer).animate(
 			{
-				scrollLeft: 0,
+				scrollLeft: 0
 			},
-			speed,
+			speed
 		);
 	}
 
-	$('.mobile-right-arrow').on('mouseover', slideLeftForMobile);
-	$('.mobile-left-arrow').on('mouseover', slideRightForMobile);
+	$(".mobile-right-arrow").on("mouseover", slideLeftForMobile);
+	$(".mobile-left-arrow").on("mouseover", slideRightForMobile);
 
 	function stopForMobile() {
-		$('.mobile-menu-width').stop();
+		$(".mobile-menu-width").stop();
 	}
 
-	$('.mobile-right-arrow, .mobile-left-arrow').on('mouseout', stopForMobile);
+	$(".mobile-right-arrow, .mobile-left-arrow").on("mouseout", stopForMobile);
 
 	// for mobile devices menu function END
 	// =====================================
@@ -373,25 +373,26 @@ $(document).ready(function() {
 	// main content right-menu "tab-content" functionality START here
 	// ----------------------------------------------------------------
 
-	$('ul.tab-menu li').click(function(e) {
-		let tab_id = $(this).attr('data-tab');
-		$('ul.tab-menu li').removeClass('current');
-		$('.tab-content').removeClass('current');
-		$(this).addClass('current');
-		$('#' + tab_id).addClass('current');
+	$("ul.tab-menus li").click(function(e) {
+		let tab_id = $(this).attr("data-tab");
+		console.log(tab_id);
+		$("ul.tab-menus li").removeClass("current");
+		$(".tab-content").removeClass("current");
+		$(this).addClass("current");
+		$("#" + tab_id).addClass("current");
 	});
 
 	// main content right-menu "tab-content" functionality END here
 	// ----------------------------------------------------------------
 
-	let menuObj = $('ul.tab-menu li');
-	let menuText = menuObj.html();
-	console.log(menuText);
-	let newString = menuText.substring(0, 3);
+	// let menuObj = $('ul.tab-menu li');
+	// let menuText = menuObj.html();
+	// console.log(menuText);
+	// let newString = menuText.substring(0, 3);
 
-	$(menuObj).each(function(index, value) {
-		console.log(newString + '...' + value);
-	});
+	// $(menuObj).each(function(index, value) {
+	// 	console.log(newString + '...' + value);
+	// });
 
 	// document ready function end
 });

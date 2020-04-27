@@ -8,17 +8,18 @@ export class MobileBackground extends Component {
 	render() {
 		return (
 			<Weddingmobilebackground mobile>
-				<Mheadergride>
-					<div className='Mobile-header-area'>
-						<div className='m-header-left'>
+				<Mheadergride className="mobile-header-wrapper">
+					<div className="Mobile-header-area">
+						<div className="m-header-left">
 							<MobileHeaderLeft />
 						</div>
-						<div className='m-header-right'>
+						<div className="m-header-right">
 							<MobileHeaderRight />
 						</div>
 					</div>
 				</Mheadergride>
-
+				{/* Mobile header section END  */}
+				{/* mobile main body wrapper rebone, mobile-menu, mobile content here */}
 				<MobileMainBody />
 			</Weddingmobilebackground>
 		);
@@ -43,15 +44,15 @@ const Weddingmobilebackground = styled.div`
 
 // mobile header grid section
 const Mheadergride = styled.div`
+	min-height: 83px;
+	max-height: 116px;
 	.Mobile-header-area {
 		display: grid;
 		grid-template-columns: 50% 50%;
 		padding: 1rem;
-		/* display: flex; */
 		.m-header-left {
 			text-align: start;
 		}
-
 		.m-header-right {
 			text-align: end;
 		}

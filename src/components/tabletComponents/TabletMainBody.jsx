@@ -7,11 +7,11 @@ export default class TabletMainBody extends Component {
 	render() {
 		return (
 			<Tabletbody>
-				<div className='tablet-body'>
+				<div className="tablet-body">
 					{/* tablet body rebones */}
 					<TableRebone />
 					{/* tablet main menu area START */}
-					<TabletContentWrapper />
+					<TabletContentWrapper className="tablet-content" />
 				</div>
 			</Tabletbody>
 		);

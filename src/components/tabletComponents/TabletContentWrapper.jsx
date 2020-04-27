@@ -9,24 +9,25 @@ class TabletContentWrapper extends Component {
 		return (
 			<Tabletcontainer>
 				<TabletHeaderMenu />
-				<Tablettextcontent>
-					<div className='tablet-text-wrapper'>
-						<div className='tablet-content'>
+				<Tablettextcontent className="tablet-text-content">
+					<div className="tablet-text-wrapper">
+						<div className="tablet-content">
 							<Tabletprofileimg>
 								<img
-									className='tablet-content-images'
+									className="tablet-content-images"
 									src={
 										process.env.PUBLIC_URL +
 										"/img/parragraphs/brqx_ped09bod_pers_-_Boda_Maribel_y_Ricardo_-_Iglesia_de_Pedrezuela_-_01_de_Mayo_de_2009_-_DSCN0055_3264x2448.jpg"
 									}
-									alt='wedding left logos'
+									alt="wedding left logos"
 								/>
 							</Tabletprofileimg>
 							<TabletContents />
 						</div>
 					</div>
 				</Tablettextcontent>
-				<TabletBottomSection />
+				{/* tablet footer country flag, search-bar and social icons  */}
+				<TabletBottomSection className="tablet-bottom-container" />
 			</Tabletcontainer>
 		);
 	}
@@ -43,9 +44,9 @@ const Tabletcontainer = styled.div`
 `;
 
 const Tablettextcontent = styled.div`
-	position: absolute;
+	position: relative;
 	width: 90%;
-	height: calc(80% - 100px);
+	height: calc(100% - 242px);
 	top: 50px;
 	left: 50%;
 	transform: translate(-50%, 0%);

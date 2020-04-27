@@ -7,8 +7,8 @@ import MobileRebone from "./MobileRebone";
 export default class MobileMainBody extends Component {
 	render() {
 		return (
-			<Mobilebody>
-				<div className='mobile-body'>
+			<Mobilebody className="mobile-body-wrapper">
+				<div className="mobile-body">
 					<MobileRebone />
 					<MobileMenu />
 					<MobileContentWrapper />
@@ -20,7 +20,7 @@ export default class MobileMainBody extends Component {
 
 const Mobilebody = styled.div`
 	width: 100%;
-	height: calc(95% - 81px);
+	height: calc(100% - 118px);
 	position: relative;
 	top: 0 !important;
 	.mobile-body {
