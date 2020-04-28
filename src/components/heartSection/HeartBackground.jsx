@@ -17,13 +17,13 @@ class HeartBackground extends Component {
 						{/* <!-- left arrow --> */}
 						<img
 							class="wedding-menu-left-icon left-arrow"
-							src="./img/arrows/brqx_wed_arrow_left_0200_2018.png"
+							src="img/arrows/brqx_wed_arrow_left_0200_2018.png"
 							alt=""
 						/>
 						{/* <!-- right arrow --> */}
 						<img
 							class="wedding-menu-right-icon right-arrow"
-							src="./img/arrows/brqx_wed_arrow_right_0200_2018.png"
+							src="img/arrows/brqx_wed_arrow_right_0200_2018.png"
 							alt=""
 						/>
 						{/* <!-- main-menu --> */}
@@ -128,7 +128,7 @@ class HeartBackground extends Component {
 						<span class="ascerisk ascerisk-btn-left">
 							<button>
 								<img
-									src="./img/war_symbols/brqx_ascerisk_war_050_2017.png"
+									src="img/war_symbols/brqx_ascerisk_war_050_2017.png"
 									alt=""
 								/>
 							</button>
@@ -137,7 +137,7 @@ class HeartBackground extends Component {
 						<span class="ascerisk ascerisk-btn-right">
 							<button>
 								<img
-									src="./img/war_symbols/brqx_ascerisk_war_050_2017.png"
+									src="img/war_symbols/brqx_ascerisk_war_050_2017.png"
 									alt=""
 								/>
 							</button>
@@ -211,7 +211,7 @@ class HeartBackground extends Component {
 								class="social-image-area tab-content current"
 							>
 								<img
-									src="http://via.placeholder.com/200x250"
+									src="img/parragraphs/brqx_ped09bod_pers_-_Boda_Maribel_y_Ricardo_-_Iglesia_de_Pedrezuela_-_01_de_Mayo_de_2009_-_DSCN0055_3264x2448.jpg"
 									align="left"
 									alt="dbrqx solical image page"
 								/>
@@ -223,7 +223,7 @@ class HeartBackground extends Component {
 								class="social-image-area tab-content"
 							>
 								<img
-									src="http://via.placeholder.com/200x250"
+									src="img/parragraphs/brqx_ped09bod_pers_-_Boda_Maribel_y_Ricardo_-_Iglesia_de_Pedrezuela_-_01_de_Mayo_de_2009_-_DSCN0055_3264x2448.jpg"
 									align="left"
 									alt="dbrqx solical image page"
 								/>
@@ -235,7 +235,7 @@ class HeartBackground extends Component {
 								class="social-image-area tab-content"
 							>
 								<img
-									src="http://via.placeholder.com/200x250"
+									src="img/parragraphs/brqx_ped09bod_pers_-_Boda_Maribel_y_Ricardo_-_Iglesia_de_Pedrezuela_-_01_de_Mayo_de_2009_-_DSCN0055_3264x2448.jpg"
 									align="left"
 									alt="dbrqx solical image page"
 								/>
@@ -273,7 +273,7 @@ class HeartBackground extends Component {
 								<span class="flag-combo-1">
 									<a href="#" title="Spain">
 										<img
-											src="./img/heart_flags/brqx_heart_flag_spain_2018_320_200.png"
+											src="img/heart_flags/brqx_heart_flag_spain_2018_320_200.png"
 											alt=""
 										/>
 									</a>
@@ -281,7 +281,7 @@ class HeartBackground extends Component {
 								<span class="flag-combo-2">
 									<a href="#" title="Bangladesh">
 										<img
-											src="./img/heart_flags/brqx_heart_flag_bangladesh_2018_320_200.png"
+											src="img/heart_flags/brqx_heart_flag_bangladesh_2018_320_200.png"
 											alt=""
 										/>
 									</a>
@@ -289,7 +289,7 @@ class HeartBackground extends Component {
 								<span class="flag-combo-3">
 									<a href="#" title="Italy">
 										<img
-											src="./img/heart_flags/brqx_heart_flag_italy_2018_320_200.png"
+											src="img/heart_flags/brqx_heart_flag_italy_2018_320_200.png"
 											alt=""
 										/>
 									</a>
@@ -297,7 +297,7 @@ class HeartBackground extends Component {
 								<span class="flag-combo-4">
 									<a href="#" title="China">
 										<img
-											src="./img/heart_flags/brqx_heart_flag_china_2018_320_200.png"
+											src="img/heart_flags/brqx_heart_flag_china_2018_320_200.png"
 											alt=""
 										/>
 									</a>
@@ -305,7 +305,7 @@ class HeartBackground extends Component {
 								<span class="flag-combo-5">
 									<a href="#" title="India">
 										<img
-											src="./img/heart_flags/brqx_heart_flag_india_2018_320_200.png"
+											src="img/heart_flags/brqx_heart_flag_india_2018_320_200.png"
 											alt=""
 										/>
 									</a>
@@ -313,7 +313,7 @@ class HeartBackground extends Component {
 								<span class="flag-combo-6">
 									<a href="#" title="Portugal">
 										<img
-											src="./img/heart_flags/brqx_break_heart_flag_portugal_2018_320_200.png"
+											src="img/heart_flags/brqx_break_heart_flag_portugal_2018_320_200.png"
 											alt=""
 										/>
 									</a>
@@ -321,7 +321,7 @@ class HeartBackground extends Component {
 								<span class="flag-combo-7">
 									<a href="#" title="Rusia">
 										<img
-											src="./img/heart_flags/brqx_break_heart_flag_rusia_2018_320_200.png"
+											src="img/heart_flags/brqx_break_heart_flag_rusia_2018_320_200.png"
 											alt=""
 										/>
 									</a>

@@ -9,10 +9,7 @@ class LaptopDropdownMenu extends Component {
 					<div className="laptop-dropdown-menu-left">
 						<span className="laptop-ascerisk-btn">
 							<img
-								src={
-									process.env.PUBLIC_URL +
-									"/img/war_symbols/brqx_ascerisk_war_050_2017.png"
-								}
+								src="img/war_symbols/brqx_ascerisk_war_050_2017.png"
 								alt="stay button"
 							/>
 						</span>
@@ -26,10 +23,7 @@ class LaptopDropdownMenu extends Component {
 					<div className="laptop-dropdown-menu-right">
 						<span className="laptop-ascerisk-btn">
 							<img
-								src={
-									process.env.PUBLIC_URL +
-									"/img/war_symbols/brqx_ascerisk_war_050_2017.png"
-								}
+								src="img/war_symbols/brqx_ascerisk_war_050_2017.png"
 								alt="stay button"
 							/>
 						</span>
@@ -81,13 +75,14 @@ const Dropdownmenu = styled.section`
 			height: 100%;
 			overflow: hidden;
 			white-space: nowrap;
-			padding: 2%;
+
 			p {
 				text-overflow: ellipsis;
 				white-space: nowrap;
 				overflow: hidden;
 				text-align: center;
 				font-size: 1vw;
+				padding: 2%;
 			}
 		}
 	}
@@ -114,7 +109,6 @@ const Dropdownmenu = styled.section`
 			height: 100%;
 			overflow: hidden;
 			white-space: nowrap;
-			padding: 2%;
 
 			p {
 				text-overflow: ellipsis;
@@ -122,6 +116,7 @@ const Dropdownmenu = styled.section`
 				overflow: hidden;
 				text-align: center;
 				font-size: 1vw;
+				padding: 2%;
 			}
 		}
 	}

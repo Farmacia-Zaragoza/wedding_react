@@ -12,10 +12,7 @@ class FlagContainer extends Component {
 							<li>
 								<a href="#">
 									<img
-										src={
-											process.env.PUBLIC_URL +
-											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
-										}
+										src="img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										alt="wedding left logos"
 									/>
 								</a>
@@ -23,10 +20,7 @@ class FlagContainer extends Component {
 							<li>
 								<a href="#">
 									<img
-										src={
-											process.env.PUBLIC_URL +
-											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
-										}
+										src="img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										alt="wedding left logos"
 									/>
 								</a>
@@ -34,10 +28,7 @@ class FlagContainer extends Component {
 							<li>
 								<a href="#">
 									<img
-										src={
-											process.env.PUBLIC_URL +
-											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
-										}
+										src="img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										alt="wedding left logos"
 									/>
 								</a>
@@ -45,10 +36,7 @@ class FlagContainer extends Component {
 							<li>
 								<a href="#">
 									<img
-										src={
-											process.env.PUBLIC_URL +
-											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
-										}
+										src="img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										alt="wedding left logos"
 									/>
 								</a>
@@ -56,10 +44,7 @@ class FlagContainer extends Component {
 							<li>
 								<a href="#">
 									<img
-										src={
-											process.env.PUBLIC_URL +
-											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
-										}
+										src="img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										alt="wedding left logos"
 									/>
 								</a>
@@ -67,10 +52,7 @@ class FlagContainer extends Component {
 							<li>
 								<a href="#">
 									<img
-										src={
-											process.env.PUBLIC_URL +
-											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
-										}
+										src="img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										alt="wedding left logos"
 									/>
 								</a>
@@ -78,10 +60,7 @@ class FlagContainer extends Component {
 							<li>
 								<a href="#">
 									<img
-										src={
-											process.env.PUBLIC_URL +
-											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
-										}
+										src="img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										alt="wedding left logos"
 									/>
 								</a>
@@ -89,10 +68,7 @@ class FlagContainer extends Component {
 							<li>
 								<a href="#">
 									<img
-										src={
-											process.env.PUBLIC_URL +
-											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
-										}
+										src="img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										alt="wedding left logos"
 									/>
 								</a>
@@ -100,10 +76,7 @@ class FlagContainer extends Component {
 							<li>
 								<a href="#">
 									<img
-										src={
-											process.env.PUBLIC_URL +
-											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
-										}
+										src="img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										alt="wedding left logos"
 									/>
 								</a>
@@ -111,10 +84,7 @@ class FlagContainer extends Component {
 							<li>
 								<a href="#">
 									<img
-										src={
-											process.env.PUBLIC_URL +
-											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
-										}
+										src="img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										alt="wedding left logos"
 									/>
 								</a>
@@ -122,10 +92,7 @@ class FlagContainer extends Component {
 							<li>
 								<a href="#">
 									<img
-										src={
-											process.env.PUBLIC_URL +
-											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
-										}
+										src="img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										alt="wedding left logos"
 									/>
 								</a>
@@ -133,10 +100,7 @@ class FlagContainer extends Component {
 							<li>
 								<a href="#">
 									<img
-										src={
-											process.env.PUBLIC_URL +
-											"/img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
-										}
+										src="img/heart_flags/brqx_heart_flag_bangladesh_0100_2018.png"
 										alt="wedding left logos"
 									/>
 								</a>

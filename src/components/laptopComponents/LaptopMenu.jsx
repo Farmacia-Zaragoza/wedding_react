@@ -134,14 +134,14 @@ const Menu = styled.section`
 			li {
 				display: inline-block;
 				position: relative;
-				background-image: url(../../img/tabs/brqx_tabs_no_selected_war_0100_2017.png);
+				background-image: url(img/tabs/brqx_tabs_no_selected_war_0100_2017.png);
 				background-size: contain;
 				background-repeat: no-repeat;
 				background-position: center;
 				padding: 0px;
 
 				&:hover {
-					background-image: url(../../img/tabs/brqx_tabs_selected_war_0100_2017.png);
+					background-image: url(img/tabs/brqx_tabs_selected_war_0100_2017.png);
 				}
 				a {
 					display: inline-block;
@@ -169,13 +169,13 @@ const Menu = styled.section`
 			li {
 				display: inline-block;
 				position: relative;
-				background-image: url(../../img/tabs/brqx_tabs_no_selected_war_0100_2017.png);
+				background-image: url(img/tabs/brqx_tabs_no_selected_war_0100_2017.png);
 				background-size: contain;
 				background-repeat: no-repeat;
 				background-position: center;
 				padding: 0px;
 				&:hover {
-					background-image: url(../../img/tabs/brqx_tabs_selected_war_0100_2017.png);
+					background-image: url(img/tabs/brqx_tabs_selected_war_0100_2017.png);
 				}
 				a {
 					display: inline-block;

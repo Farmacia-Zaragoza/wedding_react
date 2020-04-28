@@ -12,7 +12,7 @@ class LaptopLanguageFlags extends Component {
 							<span className="flag-combo-1">
 								<a href="#" title="Spain">
 									<img
-										src="./img/heart_flags/brqx_heart_flag_spain_2018_320_200.png"
+										src="img/heart_flags/brqx_heart_flag_spain_2018_320_200.png"
 										alt=""
 									/>
 								</a>
@@ -20,7 +20,7 @@ class LaptopLanguageFlags extends Component {
 							<span className="flag-combo-2">
 								<a href="#" title="Bangladesh">
 									<img
-										src="./img/heart_flags/brqx_heart_flag_bangladesh_2018_320_200.png"
+										src="img/heart_flags/brqx_heart_flag_bangladesh_2018_320_200.png"
 										alt=""
 									/>
 								</a>
@@ -28,7 +28,7 @@ class LaptopLanguageFlags extends Component {
 							<span className="flag-combo-3">
 								<a href="#" title="Italy">
 									<img
-										src="./img/heart_flags/brqx_heart_flag_italy_2018_320_200.png"
+										src="img/heart_flags/brqx_heart_flag_italy_2018_320_200.png"
 										alt=""
 									/>
 								</a>
@@ -36,7 +36,7 @@ class LaptopLanguageFlags extends Component {
 							<span className="flag-combo-4">
 								<a href="#" title="China">
 									<img
-										src="./img/heart_flags/brqx_heart_flag_china_2018_320_200.png"
+										src="img/heart_flags/brqx_heart_flag_china_2018_320_200.png"
 										alt=""
 									/>
 								</a>
@@ -44,7 +44,7 @@ class LaptopLanguageFlags extends Component {
 							<span className="flag-combo-5">
 								<a href="#" title="India">
 									<img
-										src="./img/heart_flags/brqx_heart_flag_india_2018_320_200.png"
+										src="img/heart_flags/brqx_heart_flag_india_2018_320_200.png"
 										alt=""
 									/>
 								</a>
@@ -52,7 +52,7 @@ class LaptopLanguageFlags extends Component {
 							<span className="flag-combo-6">
 								<a href="#" title="Portugal">
 									<img
-										src="./img/heart_flags/brqx_break_heart_flag_portugal_2018_320_200.png"
+										src="img/heart_flags/brqx_break_heart_flag_portugal_2018_320_200.png"
 										alt=""
 									/>
 								</a>
@@ -60,7 +60,7 @@ class LaptopLanguageFlags extends Component {
 							<span className="flag-combo-7">
 								<a href="#" title="Rusia">
 									<img
-										src="./img/heart_flags/brqx_break_heart_flag_rusia_2018_320_200.png"
+										src="img/heart_flags/brqx_break_heart_flag_rusia_2018_320_200.png"
 										alt=""
 									/>
 								</a>

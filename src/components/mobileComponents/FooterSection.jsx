@@ -9,55 +9,37 @@ class FooterSection extends Component {
 					<div className="social-icon-area">
 						<div className="social-image">
 							<img
-								src={
-									process.env.PUBLIC_URL +
-									"/img/war_symbols/brqx_cookies_war_050_2017.png"
-								}
+								src="img/war_symbols/brqx_cookies_war_050_2017.png"
 								alt="wedding left logos"
 							/>
 						</div>
 						<div className="social-image">
 							<img
-								src={
-									process.env.PUBLIC_URL +
-									"/img/war_symbols/brqx_cookies_war_050_2017.png"
-								}
+								src="img/war_symbols/brqx_cookies_war_050_2017.png"
 								alt="wedding left logos"
 							/>
 						</div>
 						<div className="social-image">
 							<img
-								src={
-									process.env.PUBLIC_URL +
-									"/img/war_symbols/brqx_cookies_war_050_2017.png"
-								}
+								src="img/war_symbols/brqx_cookies_war_050_2017.png"
 								alt="wedding left logos"
 							/>
 						</div>
 						<div className="social-image">
 							<img
-								src={
-									process.env.PUBLIC_URL +
-									"/img/war_symbols/brqx_cookies_war_050_2017.png"
-								}
+								src="img/war_symbols/brqx_cookies_war_050_2017.png"
 								alt="wedding left logos"
 							/>
 						</div>
 						<div className="social-image">
 							<img
-								src={
-									process.env.PUBLIC_URL +
-									"/img/war_symbols/brqx_cookies_war_050_2017.png"
-								}
+								src="img/war_symbols/brqx_cookies_war_050_2017.png"
 								alt="wedding left logos"
 							/>
 						</div>
 						<div className="social-image">
 							<img
-								src={
-									process.env.PUBLIC_URL +
-									"/img/war_symbols/brqx_cookies_war_050_2017.png"
-								}
+								src="img/war_symbols/brqx_cookies_war_050_2017.png"
 								alt="wedding left logos"
 							/>
 						</div>

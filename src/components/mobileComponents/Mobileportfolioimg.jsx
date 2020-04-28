@@ -6,12 +6,9 @@ export class Mobileportfolioimg extends Component {
 			<React.Fragment>
 				<Mobilefolioimg>
 					<img
-						className='tablet-content-images'
-						src={
-							process.env.PUBLIC_URL +
-							"/img/parragraphs/brqx_ped09bod_pers_-_Boda_Maribel_y_Ricardo_-_Iglesia_de_Pedrezuela_-_01_de_Mayo_de_2009_-_DSCN0055_3264x2448.jpg"
-						}
-						alt='wedding left logos'
+						className="tablet-content-images"
+						src="img/parragraphs/brqx_ped09bod_pers_-_Boda_Maribel_y_Ricardo_-_Iglesia_de_Pedrezuela_-_01_de_Mayo_de_2009_-_DSCN0055_3264x2448.jpg"
+						alt="wedding left logos"
 					/>
 				</Mobilefolioimg>
 			</React.Fragment>

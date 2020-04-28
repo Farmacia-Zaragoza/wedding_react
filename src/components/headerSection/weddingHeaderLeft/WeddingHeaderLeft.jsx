@@ -9,11 +9,8 @@ class WeddingHeaderLeft extends Component {
 			<React.Fragment>
 				<Headerleftlogo>
 					<img
-						src={
-							process.env.PUBLIC_URL +
-							"/img/logos/brqx_logo_01_ricardo_y_maribel_0100_2018.png"
-						}
-						alt='wedding left logos'
+						src="img/logos/brqx_logo_01_ricardo_y_maribel_0100_2018.png"
+						alt="wedding left logos"
 					/>
 				</Headerleftlogo>
 			</React.Fragment>

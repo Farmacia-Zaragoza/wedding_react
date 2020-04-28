@@ -11,10 +11,7 @@ class MobileMenu extends Component {
 					</div>
 					<div className="mobile-menu-diamond">
 						<img
-							src={
-								process.env.PUBLIC_URL +
-								"/img/arrows/brqx_wed_red_diamond_0050_2019.png"
-							}
+							src="img/arrows/brqx_wed_red_diamond_0050_2019.png"
 							alt="wedding left logos"
 						/>
 					</div>

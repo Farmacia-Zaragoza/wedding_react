@@ -41,7 +41,7 @@ const Searchbar = styled.section`
 	transform: translate(-50%, -50%);
 	z-index: 1;
 	.search-bar-wrapper {
-		background-image: url(../../img/hearts/brqx_search_heart_blue_0200_2018.png);
+		background-image: url(img/hearts/brqx_search_heart_blue_0200_2018.png);
 		margin-bottom: 0;
 		position: relative;
 		height: 100%;

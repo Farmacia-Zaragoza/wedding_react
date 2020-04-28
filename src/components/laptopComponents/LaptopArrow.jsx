@@ -8,13 +8,13 @@ class LaptopArrow extends Component {
 				<Laptoparrows className="laptop-arrows">
 					<div className="laptop-arrow-left">
 						<img
-							src="./img/arrows/brqx_wed_arrow_left_0200_2018.png"
+							src="img/arrows/brqx_wed_arrow_left_0200_2018.png"
 							alt="laptop menus arrows"
 						/>
 					</div>
 					<div className="laptop-arrow-right">
 						<img
-							src="./img/arrows/brqx_wed_arrow_right_0200_2018.png"
+							src="img/arrows/brqx_wed_arrow_right_0200_2018.png"
 							alt="laptop menus arrows"
 						/>
 					</div>

@@ -8,14 +8,11 @@ class WeddingHeaderRight extends Component {
 		return (
 			<React.Fragment>
 				<Headerrightlogo>
-					<div className='desktop__logo'>
+					<div className="desktop__logo">
 						<img
-							src={
-								process.env.PUBLIC_URL +
-								"/img/backgrounds/brqx_wedding_desktop_dvd_tourus_2048_2018.png"
-							}
-							alt='header right logos'
-							srcSet=''
+							src="img/backgrounds/brqx_wedding_desktop_dvd_tourus_2048_2018.png"
+							alt="header right logos"
+							srcSet=""
 						/>
 					</div>
 				</Headerrightlogo>
