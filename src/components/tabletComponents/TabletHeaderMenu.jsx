@@ -1,118 +1,158 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-
+import { findDOMNode } from "react-dom";
+import $ from "jquery";
 class TabletHeaderMenu extends Component {
+	constructor() {
+		super();
+	}
+
+	tabletMenuSlideRightToLeft = () => {
+		const speed = 6000;
+		const tabletMenuContainer = findDOMNode(this.refs.tabletMenuSlide);
+
+		// tRemainingLenth = 'tablet remaing length';
+		const tRemainingLenth =
+			$(tabletMenuContainer)[0].scrollWidth -
+			$(tabletMenuContainer).width();
+		$(tabletMenuContainer).animate(
+			{
+				scrollLeft: tRemainingLenth,
+			},
+			speed
+		);
+	};
+	tabletMenuSlideLeftToRight = () => {
+		const speed = 6000;
+		const tabletMenuContainer = findDOMNode(this.refs.tabletMenuSlide);
+		$(tabletMenuContainer).animate(
+			{
+				scrollLeft: 0,
+			},
+			speed
+		);
+	};
+	tabletMenuSlideStop = () => {
+		const tabletMenuContainer = findDOMNode(this.refs.tabletMenuSlide);
+		$(tabletMenuContainer).stop();
+	};
 	render() {
 		return (
 			<Tabletmenu>
-				<Tabletarrowleft />
-				<div className='tablet-header-menu'>
-					<ul>
+				<Tabletarrowleft
+					onMouseEnter={this.tabletMenuSlideLeftToRight}
+					onMouseLeave={this.tabletMenuSlideStop}
+				/>
+				<div className="tablet-header-menu">
+					<ul ref="tabletMenuSlide">
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 						<li>
-							<a href='#'>item</a>
+							<a href="#">item</a>
 						</li>
 					</ul>
 				</div>
-				<Tabletarrowright />
+				<Tabletarrowright
+					onMouseEnter={this.tabletMenuSlideRightToLeft}
+					onMouseLeave={this.tabletMenuSlideStop}
+				/>
 			</Tabletmenu>
 		);
 	}

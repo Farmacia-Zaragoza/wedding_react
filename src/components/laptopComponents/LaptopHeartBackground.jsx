@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import Rebone from "./Rebone";
-import LaptopArrow from "./LaptopArrow";
-import LaptopMenu from "./LaptopMenu";
+import LaptopMenus from "./LaptopMenus";
 import LaptopTextContent from "./LaptopTextContent";
 import SocialIcons from "./SocialIcons";
 import LaptopTabMenus from "./LaptopTabMenus";
@@ -19,9 +18,9 @@ class LaptopHeartBackground extends Component {
 					{/* 4 rebone for laptop  */}
 					<Rebone />
 					{/* laptop 2 arrows left and right  */}
-					<LaptopArrow />
+					<LaptopMenus />
 					{/* laptop menu slider area 2 menus, left and right*/}
-					<LaptopMenu />
+
 					{/* dropdown menu place  
                     --------------------------
                     */}

@@ -1,6 +1,6 @@
 // jquery library code here
 // =========================
-$(document).ready(function() {
+$(document).ready(function () {
 	// text container function "scroll-up" and "scroll-down" start here
 	// -----------------------------------------------------------------
 	//  random id genarator function start (to detact scroll element dynamically)
@@ -23,7 +23,7 @@ $(document).ready(function() {
 	// paragraph scroll-up "upore" function start here
 	// -----------------------------------------------
 	function verticalSlideUp() {
-		$(".scroll-inner-container").each(function() {
+		$(".scroll-inner-container").each(function () {
 			let id = makeid();
 			var div = $(this);
 			div.stop();
@@ -34,11 +34,11 @@ $(document).ready(function() {
 			var remainingTime = ((remHeight - pos) * 100) / 5; //here 5 is a speed
 			div.animate(
 				{
-					scrollTop: remHeight
+					scrollTop: remHeight,
 				},
 				{
 					duration: remainingTime,
-					easing: "linear"
+					easing: "linear",
 				}
 			);
 		});
@@ -47,7 +47,7 @@ $(document).ready(function() {
 	// paragraph scroll-down "neche" function start here
 	// -----------------------------------------------
 	function verticalSlideDown() {
-		$(".scroll-inner-container").each(function() {
+		$(".scroll-inner-container").each(function () {
 			let id = makeid();
 			var div = $(this);
 			div.stop();
@@ -59,11 +59,11 @@ $(document).ready(function() {
 
 			div.animate(
 				{
-					scrollTop: 0
+					scrollTop: 0,
 				},
 				{
 					duration: remainingTime,
-					easing: "linear"
+					easing: "linear",
 				}
 			);
 		});
@@ -89,7 +89,7 @@ $(document).ready(function() {
 	getPos(obj);
 	// end function
 	//Calls fuction on mouse over
-	obj.mousemove(function(e) {
+	obj.mousemove(function (e) {
 		handleMouseMove(e);
 	});
 	// end function
@@ -116,7 +116,7 @@ $(document).ready(function() {
 	let scrollSpeed = 10;
 
 	function horizontal_Menu_Width() {
-		$(".wedding-menu-left-outer").each(function() {
+		$(".wedding-menu-left-outer").each(function () {
 			let id = makeid();
 			$(this).attr("id", id);
 			//total width of horizontal menu with 2 arrow.
@@ -140,7 +140,7 @@ $(document).ready(function() {
 	// horizontal_Menu_Width();
 	// for left menu
 	// -----------------
-	$(".wedding-menu-left-outer > i").on("mouseenter", function() {
+	$(".wedding-menu-left-outer > i").on("mouseenter", function () {
 		// init class,ID on valiable when mouse inter
 		let horizontalMenuParentID = $(this).parent(
 			".wedding-menu-left-outer"
@@ -186,7 +186,7 @@ $(document).ready(function() {
 					" >.wedding-menu-left-inner>.main-menu-left"
 			).animate(
 				{
-					scrollLeft: horizontalMenuScroll
+					scrollLeft: horizontalMenuScroll,
 				},
 				scrollSpeed * scrollableMenu
 			);
@@ -197,7 +197,7 @@ $(document).ready(function() {
 					" >.wedding-menu-left-inner>.main-menu-left"
 			).animate(
 				{
-					scrollLeft: 0
+					scrollLeft: 0,
 				},
 				scrollSpeed *
 					$(
@@ -227,7 +227,7 @@ $(document).ready(function() {
 
 	// when mouse leave from arrow then scroll should stop
 
-	$(".wedding-menu-left-outer > i").on("mouseleave", function() {
+	$(".wedding-menu-left-outer > i").on("mouseleave", function () {
 		let horizontalMenuParentID = $(this).parent(
 			".wedding-menu-left-outer"
 		)[0].id;
@@ -292,14 +292,14 @@ $(document).ready(function() {
 		Rscrollable = RremLength - $(RsliderContainer).scrollLeft();
 		$(sliderContainer).animate(
 			{
-				scrollLeft: remLength
+				scrollLeft: remLength,
 			},
 			speed
 		);
 
 		$(RsliderContainer).animate(
 			{
-				scrollLeft: RremLength
+				scrollLeft: RremLength,
 			},
 			speed
 		);
@@ -310,13 +310,13 @@ $(document).ready(function() {
 		RsliderContainer = $(".menu-right");
 		$(sliderContainer).animate(
 			{
-				scrollLeft: 0
+				scrollLeft: 0,
 			},
 			speed
 		);
 		$(RsliderContainer).animate(
 			{
-				scrollLeft: 0
+				scrollLeft: 0,
 			},
 			speed
 		);
@@ -342,7 +342,7 @@ $(document).ready(function() {
 		scrollable = remLength - $(sliderContainer).scrollLeft();
 		$(sliderContainer).animate(
 			{
-				scrollLeft: remLength
+				scrollLeft: remLength,
 			},
 			speed
 		);
@@ -352,7 +352,7 @@ $(document).ready(function() {
 		sliderContainer = $(".mobile-menu-width");
 		$(sliderContainer).animate(
 			{
-				scrollLeft: 0
+				scrollLeft: 0,
 			},
 			speed
 		);
@@ -373,7 +373,7 @@ $(document).ready(function() {
 	// main content right-menu "tab-content" functionality START here
 	// ----------------------------------------------------------------
 
-	$("ul.tab-menus li").click(function(e) {
+	$("ul.tab-menus li").click(function (e) {
 		let tab_id = $(this).attr("data-tab");
 		console.log(tab_id);
 		$("ul.tab-menus li").removeClass("current");
@@ -394,6 +394,10 @@ $(document).ready(function() {
 	// 	console.log(newString + '...' + value);
 	// });
 
+	// for React page
+	$(".laptop-arrow-left img").click(function () {
+		console.log("arrow clicked from react");
+	});
 	// document ready function end
 });
 

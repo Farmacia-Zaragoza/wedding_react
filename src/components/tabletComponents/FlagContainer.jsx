@@ -1,14 +1,48 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-
+import { findDOMNode } from "react-dom";
+import $ from "jquery";
 class FlagContainer extends Component {
+	constructor() {
+		super();
+	}
+	tabletFlagSliderRightToleft = () => {
+		const speed = 6000;
+		const tabletFlagContainer = findDOMNode(this.refs.tabletFlagContainer);
+		const tFlagRemainingLength =
+			$(tabletFlagContainer)[0].scrollWidth -
+			$(tabletFlagContainer).width();
+		$(tabletFlagContainer).animate(
+			{
+				scrollLeft: tFlagRemainingLength,
+			},
+			speed
+		);
+	};
+	tabletFlagSliderLeftToRight = () => {
+		const speed = 3000;
+		const tabletFlagContainer = findDOMNode(this.refs.tabletFlagContainer);
+		$(tabletFlagContainer).animate(
+			{
+				scrollLeft: 0,
+			},
+			speed
+		);
+	};
+	tabletFlagStop = () => {
+		const tabletFlagContainer = findDOMNode(this.refs.tabletFlagContainer);
+		$(tabletFlagContainer).stop();
+	};
 	render() {
 		return (
 			<Flagcontainerdesign>
 				<div className="flag-container-wrapper">
-					<Tabletarrowleft />
+					<Tabletarrowleft
+						onMouseEnter={this.tabletFlagSliderRightToleft}
+						onMouseLeave={this.tabletFlagStop}
+					/>
 					<div className="flag-container">
-						<ul>
+						<ul ref="tabletFlagContainer">
 							<li>
 								<a href="#">
 									<img
@@ -107,7 +141,10 @@ class FlagContainer extends Component {
 							</li>
 						</ul>
 					</div>
-					<Tabletarrowright />
+					<Tabletarrowright
+						onMouseEnter={this.tabletFlagSliderLeftToRight}
+						onMouseLeave={this.tabletFlagStop}
+					/>
 				</div>
 			</Flagcontainerdesign>
 		);
