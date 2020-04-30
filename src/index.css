@@ -8,11 +8,11 @@ html {
 	height: 100%;
 	font-size: 14px;
 }
-#wedding {
+#root {
 	width: 100%;
 	height: 100%;
 }
-#wedding > div {
+#root > div {
 	width: 100%;
 	height: 100%;
 }
