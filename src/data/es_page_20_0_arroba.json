@@ -1,0 +1,82 @@
+{
+"diamond_langs" : [ 
+{ "index": "015v000","type": "flag","id": "es","name": "España","hover": "Spain","flag": "r_img/trapeze_flags/brqx_flag_es_2016_320_200.svg","clink": "es" } 
+,
+{ "index": "015v001","type": "flag","id": "en","name": "Inglaterra","hover": "England","flag": "r_img/trapeze_flags/brqx_flag_en_2016_320_200.svg","clink": "en" } 
+,
+{ "index": "015v002","type": "flag","id": "it","name": "Italia","hover": "Italy","flag": "r_img/trapeze_flags/brqx_flag_it_2016_320_200.svg","clink": "it" } 
+,
+{ "index": "015v003","type": "flag","id": "pt","name": "Portugal","hover": "Portugal","flag": "r_img/trapeze_flags/brqx_flag_pt_2016_320_200.svg","clink": "pt" } 
+,
+{ "index": "015v004","type": "flag","id": "fr","name": "Francia","hover": "France","flag": "r_img/trapeze_flags/brqx_flag_fr_2016_320_200.svg","clink": "fr" } 
+,
+{ "index": "015v005","type": "flag","id": "de","name": "Alemania","hover": "Deuchland","flag": "r_img/trapeze_flags/brqx_flag_de_2016_320_200.svg","clink": "de" } 
+,
+{ "index": "015v006","type": "flag","id": "in","name": "India","hover": "India","flag": "r_img/trapeze_flags/brqx_flag_in_2016_320_200.svg","clink": "in" } 
+,
+{ "index": "015v007","type": "flag","id": "bn","name": "Bangladesh","hover": "Bangladesh","flag": "r_img/trapeze_flags/brqx_flag_bn_2016_320_200.svg","clink": "bn" } 
+,
+{ "index": "015v008","type": "flag","id": "ja","name": "Japón","hover": "Japan","flag": "r_img/trapeze_flags/brqx_flag_ja_2016_320_200.svg","clink": "ja" } 
+,
+{ "index": "015v009","type": "flag","id": "zh","name": "China","hover": "China","flag": "r_img/trapeze_flags/brqx_flag_zh_2016_320_200.svg","clink": "zh" } 
+,
+{ "index": "015v010","type": "flag","id": "uk","name": "Ucrania","hover": "Ukraine","flag": "r_img/trapeze_flags/brqx_flag_uk_2016_320_200.svg","clink": "uk" } 
+,
+{ "index": "015v011","type": "flag","id": "ca","name": "Cataluña","hover": "Catalonia","flag": "r_img/trapeze_flags/brqx_flag_ca_2016_320_200.svg","clink": "ca" } 
+,
+{ "index": "015v012","type": "flag","id": "ru","name": "Rusia","hover": "Russia","flag": "r_img/trapeze_flags/brqx_flag_ru_2016_320_200.svg","clink": "ru" } 
+]
+,
+"articles" : [ 
+{
+"index": "020v000","type": "bclink","otype": "object","value": "Bienvenido al sitio","hover": "","sg_breadcrumb": "articles/a00","clink": "es/articulo/a000","childrens": true,"pull02": {
+"image": { "index": "020v000v000","type": "image","otype": "object","img": "photos/b01_boyfriend/RESOLUTION/brqx_pas09bod_pers_-_Boda_Maribel_y_Ricardo_-_Palacio_Aldea_Santillana_-_Paseo_-_01_de_Mayo_de_2009_-_DSCN1554_RESOLUTION.jpg" } 
+,
+"parragraph": {"index": "020v000v001","type": "iparragraph","title": "Bienvenidos a nuestra boda","otype": "object","clink": "es/articulo/a000","childrens": true,"pull03": [
+{ "index": "0","type": "text","value": "$:V[-Upd_line [A_000]：Upd_191017-V_0.0.1-]" } 
+,
+{ "index": "1","type": "text","value": "$:H[Bienvenidos a mi boda]" } 
+,
+{ "index": "2","type": "text","value": "Brqx Wedding deberá ser un recuerdo impasible en el tiempo " } 
+,
+{ "index": "3","type": "text","value": "Sin duda sabemos que es complicado, pero siempre hay que i" } 
+,
+{ "index": "4","type": "text","value": "Un lugar donde la belleza y el amor inunde a cada persona que desee visitarnos" } 
+,
+{ "index": "5","type": "text","value": "Una pasión por las cosas bien hechas" } 
+,
+{ "index": "6","type": "text","value": "Un desempeño sin parangón en un sin fín de detalles que hacen e hicieron un momento inolvidable" } 
+,
+{ "index": "7","type": "text","value": "Por mis pelonas" } 
+,
+{ "index": "8","type": "text","value": "Por mi familia" } 
+,
+{ "index": "9","type": "text","value": "Por mi equipo" } 
+,
+{ "index": "10","type": "text","value": "Por todos y cada uno con los que he coincidido" } 
+,
+{ "index": "11","type": "text","value": "Brqx Wedding !" } 
+]
+}
+,
+"prev_item": { "index": "020v000v002","type": "slink","otype": "object","clink": "es/articulo/a000013" } 
+,
+"next_item": { "index": "020v000v003","type": "slink","otype": "object","clink": "es/articulo/a00001" } 
+,
+"first_item": { "index": "020v000v004","type": "slink","otype": "object","clink": "es/articulo/a00000" } 
+,
+"last_item": { "index": "020v000v005","type": "slink","otype": "object","clink": "es/articulo/a000013" } 
+,
+"metatags": { "index": "020v000v006","type": "text","value": "architecture drupal structure" } 
+,
+"current_position": { "index": "020v000v007","type": "text","value": "0" } 
+,
+"last_position": { "index": "020v000v008","type": "text","value": "13" } 
+,
+"sm_meta_og_description": { "index": "020v000v010","type": "text","value": "Bienvenidos a nuestra boda" } 
+,
+"sg_page_type": { "index": "020v000v500","type": "text","value": "sheet" } 
+}
+}
+]
+}

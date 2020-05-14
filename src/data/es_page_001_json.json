@@ -1,0 +1,512 @@
+{
+"main" : {
+"site_general": {"index": "000v000","otype": "object","type": "branch","childrens": true,"pull02": {
+"sg_site_name": { "index": "000v000v000","type": "item","value": "wedding" } 
+,
+"sg_theme_name": { "index": "000v000v001","type": "item","value": "wedding" } 
+,
+"sg_site_title": { "index": "000v000v002","type": "title","clink": "","value": "Brqx Wedding - One day to remember forever" } 
+,
+"sg_site_subtitle": { "index": "000v000v003","type": "item","value": "Maribel and Ricardo Wedding - Marvellous place - Unforgettable day" } 
+,
+"sg_site_sub_subtitle": { "index": "000v000v004","type": "item","value": "" } 
+,
+"sg_img_generation_type": { "index": "000v000v005","type": "item","value": "absolute" } 
+,
+"sg_lnk_generation_type": { "index": "000v000v006","type": "item","value": "specified" } 
+,
+"sg_site_language_type": { "index": "000v000v007","type": "item","value": "multilanguage" } 
+,
+"sg_site_live": { "index": "000v000v008","type": "item","value": "dev" } 
+,
+"sg_data_comm_version": { "index": "000v000v009","type": "item","value": "001" } 
+,
+"sg_data_spec_version": { "index": "000v000v010","type": "item","value": "001" } 
+,
+"sg_data_content_version": { "index": "000v000v011","type": "item","value": "000" } 
+,
+"sg_data_list_version": { "index": "000v000v012","type": "item","value": "000" } 
+,
+"sg_frontend_engine": { "index": "000v000v020","type": "item","value": "react" } 
+,
+"sg_style_engine": { "index": "000v000v021","type": "item","value": "" } 
+}
+}
+,
+"site_theme": {"index": "000v001","otype": "object","type": "branch","childrens": true,"pull02": {
+"st_theme": {"index": "000v001v000","otype": "object","type": "branch","childrens": true,"pull03": {
+"stt_theme_size": { "index": "000v001v000v000","type": "item","value": "small" } 
+,
+"stt_title_size": { "index": "000v001v000v001","type": "item","value": "normal" } 
+}
+}
+,
+"st_logo": {"index": "000v001v001","otype": "object","type": "branch","childrens": true,"pull03": {
+"stl_site_icon": { "index": "000v001v001v000","type": "image","otype": "","img": "r_img/icons/brqx_icono_proyecto_boda_maribel_ricardo_50.gif" } 
+,
+"stl_site_logo": { "index": "000v001v001v001","type": "logotype","clink": "","img": "r_img/logos/brqx_logo_03_dvd_maribel_y_ricardo_0100_2018.png" } 
+,
+"stl_logo_alt": { "index": "000v001v001v002","type": "item","value": "Brqx Wedding - Maribel y Ricardo Ceremony - banquet and party [01-05-2009]" } 
+,
+"stl_title_hover": { "index": "000v001v001v003","type": "item","value": "Brqx Wedding 10 Years Aniversary - 2009 - 2019" } 
+,
+"stl_mobile_logo": { "index": "000v001v001v004","type": "logotype","clink": "","img": "r_img/logos/brqx_logo_03_dvd_maribel_y_ricardo_0100_2018.png" } 
+,
+"stl_tablet_logo": { "index": "000v001v001v005","type": "logotype","clink": "","img": "r_img/logos/brqx_logo_03_dvd_maribel_y_ricardo_0100_2018.png" } 
+,
+"stl_desktop_logo": { "index": "000v001v001v006","type": "logotype","clink": "","img": "r_img/logos/brqx_logo_03_dvd_maribel_y_ricardo_0100_2018.png" } 
+,
+"stl_4k_logo": { "index": "000v001v001v007","type": "logotype","clink": "","img": "r_img/logos/brqx_logo_03_dvd_maribel_y_ricardo_0100_2018.png" } 
+}
+}
+,
+"st_background": {"index": "000v001v002","otype": "object","type": "branch","childrens": true,"pull03": {
+"stb_general": { "index": "000v001v002v000","type": "image","otype": "","img": "r_img/backgrounds/brqx_wedding_desktop_1920_2018.jpg" } 
+,
+"stb_desktop": { "index": "000v001v002v001","type": "image","otype": "","img": "r_img/backgrounds/brqx_wedding_desktop_1920_2018.jpg" } 
+,
+"stb_tablet": { "index": "000v001v002v002","type": "image","otype": "","img": "r_img/backgrounds/brqx_pas09bod_pers_-_Boda_Maribel_y_Ricardo_-_Palacio_Aldea_Santillana_-_Paseo_-_01_de_Mayo_de_2009_-_DSCN1547_2048x1536.jpg" } 
+,
+"stb_mobile": { "index": "000v001v002v003","type": "image","otype": "","img": "r_img/backgrounds/brqx_pas09bod_pers_-_Boda_Maribel_y_Ricardo_-_Palacio_Aldea_Santillana_-_Paseo_-_01_de_Mayo_de_2009_-_DSCN1554_2048x1536.jpg" } 
+,
+"stb_4k": { "index": "000v001v002v004","type": "image","otype": "","img": "r_img/backgrounds/brqx_pas09bod_pers_-_Boda_Maribel_y_Ricardo_-_Palacio_Aldea_Santillana_-_Paseo_-_01_de_Mayo_de_2009_-_DSCN1575_2048x1536.jpg" } 
+}
+}
+}
+}
+,
+"site_images": {"index": "000v002","otype": "object","type": "branch","childrens": true,"pull02": {
+"si_img_base_resolution": { "index": "000v002v000","type": "item","value": "3264x2448" } 
+,
+"si_img_base_folder": { "index": "000v002v001","type": "item","value": "/ssd/wedding/" } 
+,
+"si_photo_link": { "index": "000v002v002","type": "item","value": "photos" } 
+,
+"si_image_link": { "index": "000v002v003","type": "item","value": "r_img" } 
+,
+"si_fnode_link": { "index": "000v002v004","type": "item","value": "farma" } 
+,
+"si_photo_default_extension": { "index": "000v002v005","type": "item","value": "jpg" } 
+,
+"si_image_default_extension": { "index": "000v002v006","type": "item","value": "svg" } 
+,
+"si_slider_resolutions": { "index": "000v002v007","type": "item","value": "0564x0423 0909x0682 1818x1364 2560x1440 3840x2160" } 
+,
+"si_carousel_resolutions": { "index": "000v002v008","type": "item","value": "0153x0115 0193x0145 0250x0200 0300x0250 0386x0290" } 
+,
+"breakpoints_information": {"index": "000v002v009","otype": "array","type": "branch","childrens": true,"pull03": [
+{ "index": "000v002v009v000","type": "breakpoint","name": "220","break": "220","resolution": "0480x0600" } 
+,
+{ "index": "000v002v009v001","type": "breakpoint","name": "501","break": "501","resolution": "0600x0710" } 
+,
+{ "index": "000v002v009v002","type": "breakpoint","name": "769","break": "769","resolution": "0750x0960" } 
+,
+{ "index": "000v002v009v003","type": "breakpoint","name": "1171","break": "1171","resolution": "0900x1200" } 
+]
+}
+}
+}
+,
+"site_meta": {"index": "000v004","otype": "object","type": "branch","childrens": true,"pull02": {
+"sm_meta_author": { "index": "000v004v000","type": "item","value": "Brqx - Zaragoza Pharmacy 2020" } 
+,
+"sm_meta_desc": { "index": "000v004v001","type": "item","value": "Brqx Wedding - Maribel y Ricardo Ceremony, banquet and party [01-05-2009]" } 
+,
+"sm_meta_og_title": { "index": "000v004v002","type": "item","value": "Brqx Wedding 11 Years Aniversary - 2009 - 2020" } 
+,
+"sm_meta_og_type": { "index": "000v004v003","type": "item","value": "website" } 
+,
+"sm_meta_og_description": { "index": "000v004v004","type": "item","value": "Wedding Site - A site for children - A site for everybody" } 
+,
+"sm_meta_og_image": { "index": "000v004v005","type": "image","otype": "","img": "r_img/logos/brqx_logo_03_dvd_maribel_y_ricardo_0100_2018.png" } 
+}
+}
+,
+"aliases": {"index": "000v005","otype": "object","type": "branch","childrens": true,"pull02": {
+"a0000": { "index": "000v005v000","type": "alias","value": "laboda","dtype": "product","number": "0" } 
+,
+"a0001": { "index": "000v005v001","type": "alias","value": "boda","dtype": "product","number": "0" } 
+,
+"a0002": { "index": "000v005v002","type": "alias","value": "wedding","dtype": "product","number": "0" } 
+,
+"a0003": { "index": "000v005v003","type": "alias","value": "pareja/boda/pedrezuela_aldeasantillana_el_atazar","dtype": "product","number": "0" } 
+,
+"a0004": { "index": "000v005v004","type": "alias","value": "boda/pedrezuela_aldeasantillana_el_atazar","dtype": "product","number": "0" } 
+,
+"a0005": { "index": "000v005v005","type": "alias","value": "pedrezuela_aldeasantillana_el_atazar","dtype": "product","number": "0" } 
+,
+"a0010": { "index": "000v005v010","type": "alias","value": "novia","dtype": "product","number": "1" } 
+,
+"a0011": { "index": "000v005v011","type": "alias","value": "novia/maribel","dtype": "product","number": "1" } 
+,
+"a0012": { "index": "000v005v012","type": "alias","value": "maribel","dtype": "product","number": "1" } 
+,
+"a0013": { "index": "000v005v013","type": "alias","value": "protagonista/profesion/novia/maribel","dtype": "product","number": "1" } 
+,
+"a0014": { "index": "000v005v014","type": "alias","value": "profesion/novia/maribel","dtype": "product","number": "1" } 
+,
+"a0015": { "index": "000v005v015","type": "alias","value": "profesion/maribel","dtype": "product","number": "1" } 
+,
+"a0016": { "index": "000v005v016","type": "alias","value": "category/protagonismo/novia","dtype": "product","number": "1" } 
+,
+"a0017": { "index": "000v005v017","type": "alias","value": "protagonismo/novia","dtype": "product","number": "1" } 
+,
+"a0020": { "index": "000v005v020","type": "alias","value": "protagonista/aficiones/novia/maribel","dtype": "product","number": "2" } 
+,
+"a0021": { "index": "000v005v021","type": "alias","value": "aficiones/novia/maribel","dtype": "product","number": "2" } 
+,
+"a0022": { "index": "000v005v022","type": "alias","value": "aficiones/maribel","dtype": "product","number": "2" } 
+,
+"a0030": { "index": "000v005v030","type": "alias","value": "protagonista/historia/novia/maribel","dtype": "product","number": "3" } 
+,
+"a0031": { "index": "000v005v031","type": "alias","value": "historia/novia/maribel","dtype": "product","number": "3" } 
+,
+"a0032": { "index": "000v005v032","type": "alias","value": "historia/maribel","dtype": "product","number": "3" } 
+,
+"a0042": { "index": "000v005v040","type": "alias","value": "novio","dtype": "product","number": "4" } 
+,
+"a0041": { "index": "000v005v041","type": "alias","value": "novio/ricardo","dtype": "product","number": "4" } 
+,
+"a0042": { "index": "000v005v042","type": "alias","value": "ricardo","dtype": "product","number": "4" } 
+,
+"a0043": { "index": "000v005v043","type": "alias","value": "protagonista/profesion/novio/ricardo","dtype": "product","number": "4" } 
+,
+"a0044": { "index": "000v005v044","type": "alias","value": "profesion/novio/ricardo","dtype": "product","number": "4" } 
+,
+"a0045": { "index": "000v005v045","type": "alias","value": "profesion/ricardo","dtype": "product","number": "4" } 
+,
+"a0046": { "index": "000v005v046","type": "alias","value": "category/protagonismo/novio","dtype": "product","number": "4" } 
+,
+"a0047": { "index": "000v005v047","type": "alias","value": "protagonismo/novio","dtype": "product","number": "4" } 
+,
+"a0050": { "index": "000v005v050","type": "alias","value": "protagonista/aficiones/novio/ricardo","dtype": "product","number": "5" } 
+,
+"a0051": { "index": "000v005v051","type": "alias","value": "aficiones/novio/ricardo","dtype": "product","number": "5" } 
+,
+"a0052": { "index": "000v005v052","type": "alias","value": "aficiones/ricardo","dtype": "product","number": "5" } 
+,
+"a0060": { "index": "000v005v060","type": "alias","value": "protagonista/historia/novio/ricardo","dtype": "product","number": "6" } 
+,
+"a0061": { "index": "000v005v061","type": "alias","value": "historia/novio/ricardo","dtype": "product","number": "6" } 
+,
+"a0062": { "index": "000v005v062","type": "alias","value": "historia/ricardo","dtype": "product","number": "6" } 
+,
+"a0070": { "index": "000v005v070","type": "alias","value": "lugar/iglesia/pedrezuela","dtype": "product","number": "7" } 
+,
+"a0071": { "index": "000v005v071","type": "alias","value": "lugar/pedrezuela","dtype": "product","number": "7" } 
+,
+"a0072": { "index": "000v005v072","type": "alias","value": "pedrezuela","dtype": "product","number": "7" } 
+,
+"a0073": { "index": "000v005v073","type": "alias","value": "category/codigo/iglesia","dtype": "product","number": "7" } 
+,
+"a0074": { "index": "000v005v074","type": "alias","value": "category/codigo/pedrezuela","dtype": "product","number": "7" } 
+,
+"a0075": { "index": "000v005v075","type": "alias","value": "evento/iglesia/pedrezuela","dtype": "product","number": "7" } 
+,
+"a0076": { "index": "000v005v076","type": "alias","value": "evento/pedrezuela","dtype": "product","number": "7" } 
+,
+"a0077": { "index": "000v005v077","type": "alias","value": "evento/iglesia","dtype": "product","number": "7" } 
+,
+"a0078": { "index": "000v005v078","type": "alias","value": "iglesiapedrezuela","dtype": "product","number": "7" } 
+,
+"a0080": { "index": "000v005v080","type": "alias","value": "lugar/finca/aldea","dtype": "product","number": "8" } 
+,
+"a0081": { "index": "000v005v081","type": "alias","value": "lugar/finca/santillana","dtype": "product","number": "8" } 
+,
+"a0082": { "index": "000v005v082","type": "alias","value": "lugar/finca/aldea_santillana","dtype": "product","number": "8" } 
+,
+"a0083": { "index": "000v005v083","type": "alias","value": "lugar/finca","dtype": "product","number": "8" } 
+,
+"a0084": { "index": "000v005v084","type": "alias","value": "lugar/aldea_santillana","dtype": "product","number": "8" } 
+,
+"a0085": { "index": "000v005v085","type": "alias","value": "aldea_santillana","dtype": "product","number": "8" } 
+,
+"a0086": { "index": "000v005v086","type": "alias","value": "category/codigo/finca","dtype": "product","number": "8" } 
+,
+"a0087": { "index": "000v005v087","type": "alias","value": "category/codigo/santillana","dtype": "product","number": "8" } 
+,
+"a0088": { "index": "000v005v088","type": "alias","value": "category/codigo/aldea_santillana","dtype": "product","number": "8" } 
+,
+"a0089": { "index": "000v005v089","type": "alias","value": "evento/finca/aldea_santillana","dtype": "product","number": "8" } 
+,
+"a0090": { "index": "000v005v090","type": "alias","value": "finca/aldea_santillana","dtype": "product","number": "8" } 
+,
+"a0091": { "index": "000v005v091","type": "alias","value": "aldea_santillana","dtype": "product","number": "8" } 
+,
+"a0092": { "index": "000v005v092","type": "alias","value": "category/codigo/atazar","dtype": "product","number": "8" } 
+,
+"a0093": { "index": "000v005v093","type": "alias","value": "category/atazar","dtype": "product","number": "8" } 
+,
+"a0094": { "index": "000v005v094","type": "alias","value": "atazar","dtype": "product","number": "8" } 
+,
+"a0095": { "index": "000v005v095","type": "alias","value": "codigo/atazar","dtype": "product","number": "8" } 
+,
+"a0100": { "index": "000v005v100","type": "alias","value": "pareja/enlace/zaragoza_paris","dtype": "product","number": "10" } 
+,
+"a0101": { "index": "000v005v101","type": "alias","value": "pareja/enlace/paris","dtype": "product","number": "10" } 
+,
+"a0102": { "index": "000v005v102","type": "alias","value": "enlace/paris","dtype": "product","number": "10" } 
+,
+"a0103": { "index": "000v005v103","type": "alias","value": "pareja/paris","dtype": "product","number": "" } 
+,
+"a0104": { "index": "000v005v104","type": "alias","value": "pareja/loving_city","dtype": "product","number": "" } 
+,
+"a0105": { "index": "000v005v105","type": "alias","value": "paris","dtype": "product","number": "" } 
+,
+"a0110": { "index": "000v005v110","type": "alias","value": "pareja/viaje/mauricio_reunion_seychelles","dtype": "product","number": "11" } 
+,
+"a0111": { "index": "000v005v111","type": "alias","value": "viaje/mauricio_reunion_seychelles","dtype": "product","number": "11" } 
+,
+"a0112": { "index": "000v005v112","type": "alias","value": "viaje","dtype": "product","number": "11" } 
+,
+"a0113": { "index": "000v005v113","type": "alias","value": "mauricio","dtype": "product","number": "11" } 
+,
+"a0114": { "index": "000v005v114","type": "alias","value": "reunion","dtype": "product","number": "11" } 
+,
+"a0115": { "index": "000v005v115","type": "alias","value": "seychelles","dtype": "product","number": "11" } 
+,
+"a0130": { "index": "000v005v130","type": "alias","value": "los_profesionales","dtype": "product","number": "13" } 
+,
+"a0131": { "index": "000v005v131","type": "alias","value": "profesionales","dtype": "product","number": "13" } 
+,
+"a0132": { "index": "000v005v132","type": "alias","value": "profesional/castillos_hinchables/celebraeventos","dtype": "product","number": "13" } 
+,
+"a0133": { "index": "000v005v133","type": "alias","value": "contenido/%5Bfield_titular-raw%5D_7","dtype": "product","number": "13" } 
+,
+"a0134": { "index": "000v005v134","type": "alias","value": "contenido/%5Bfield_titular-raw%5D_6","dtype": "product","number": "13" } 
+,
+"a0135": { "index": "000v005v135","type": "alias","value": "profesional/diseno_grafico/pspv_diseno","dtype": "product","number": "13" } 
+,
+"a0136": { "index": "000v005v136","type": "alias","value": "profesional/coches_de_lujo/rollschoyce","dtype": "product","number": "13" } 
+,
+"a0137": { "index": "000v005v137","type": "alias","value": "profesional/fotografia/saavedra_y_penalva","dtype": "product","number": "13" } 
+,
+"a0138": { "index": "000v005v138","type": "alias","value": "profesional/floristeria/silvosa_hermanos","dtype": "product","number": "13" } 
+,
+"a0139": { "index": "000v005v139","type": "alias","value": "profesional/musica_ambiental/tribal_audio","dtype": "product","number": "13" } 
+,
+"a0200": { "index": "000v005v200","type": "alias","value": "welcome","dtype": "product","number": "0" } 
+,
+"a0201": { "index": "000v005v201","type": "alias","value": "bride_pro","dtype": "product","number": "1" } 
+,
+"a0202": { "index": "000v005v202","type": "alias","value": "bride_pers","dtype": "product","number": "2" } 
+,
+"a0203": { "index": "000v005v203","type": "alias","value": "bride_his","dtype": "product","number": "3" } 
+,
+"a0204": { "index": "000v005v204","type": "alias","value": "boyfriend_pro","dtype": "product","number": "4" } 
+,
+"a0205": { "index": "000v005v205","type": "alias","value": "boyfriend_per","dtype": "product","number": "5" } 
+,
+"a0206": { "index": "000v005v206","type": "alias","value": "boyfriend_his","dtype": "product","number": "6" } 
+,
+"a0207": { "index": "000v005v207","type": "alias","value": "church","dtype": "product","number": "7" } 
+,
+"a0208": { "index": "000v005v208","type": "alias","value": "palace","dtype": "product","number": "8" } 
+,
+"a0209": { "index": "000v005v209","type": "alias","value": "palace_passage","dtype": "product","number": "9" } 
+,
+"a0210": { "index": "000v005v210","type": "alias","value": "paris_passage","dtype": "product","number": "10" } 
+,
+"a0211": { "index": "000v005v211","type": "alias","value": "honeymoon_passage","dtype": "product","number": "11" } 
+,
+"a0212": { "index": "000v005v212","type": "alias","value": "lucy","dtype": "product","number": "12" } 
+,
+"a0300": { "index": "000v005v300","type": "alias","value": "photo/bride","dtype": "photo","number": "3" } 
+,
+"a0304": { "index": "000v005v304","type": "alias","value": "photo/novia","dtype": "photo","number": "3" } 
+,
+"a0305": { "index": "000v005v305","type": "alias","value": "photo/bride","dtype": "photo","number": "3" } 
+,
+"a0306": { "index": "000v005v306","type": "alias","value": "photo/novio","dtype": "photo","number": "0" } 
+,
+"a0307": { "index": "000v005v307","type": "alias","value": "photo/boyfriend","dtype": "photo","number": "2" } 
+,
+"a0308": { "index": "000v005v308","type": "alias","value": "photo/church","dtype": "photo","number": "2" } 
+,
+"a0309": { "index": "000v005v309","type": "alias","value": "photo/aldea","dtype": "photo","number": "3" } 
+,
+"a0310": { "index": "000v005v310","type": "alias","value": "photo/rolls","dtype": "photo","number": "4" } 
+,
+"a0311": { "index": "000v005v311","type": "alias","value": "photo/dance","dtype": "photo","number": "5" } 
+,
+"a0312": { "index": "000v005v312","type": "alias","value": "photo/world","dtype": "photo","number": "6" } 
+,
+"a0313": { "index": "000v005v313","type": "alias","value": "photo/seychelles","dtype": "photo","number": "7" } 
+,
+"a0314": { "index": "000v005v314","type": "alias","value": "photo/mauricio","dtype": "photo","number": "8" } 
+,
+"a0315": { "index": "000v005v315","type": "alias","value": "photo/reunion","dtype": "photo","number": "9" } 
+,
+"a0316": { "index": "000v005v316","type": "alias","value": "photo/lucy","dtype": "photo","number": "10" } 
+,
+"a0600": { "index": "000v005v600","type": "alias","value": "pareja/enlace/castillo","dtype": "product","number": "3" } 
+,
+"a0601": { "index": "000v005v601","type": "alias","value": "enlace/castillo","dtype": "product","number": "3" } 
+,
+"a0602": { "index": "000v005v602","type": "alias","value": "castillo","dtype": "product","number": "3" } 
+,
+"a0603": { "index": "000v005v603","type": "alias","value": "pareja/enlace/pantano","dtype": "product","number": "3" } 
+,
+"a0604": { "index": "000v005v604","type": "alias","value": "enlace/pantano","dtype": "product","number": "3" } 
+,
+"a0605": { "index": "000v005v605","type": "alias","value": "pantano","dtype": "product","number": "3" } 
+,
+"a0606": { "index": "000v005v606","type": "alias","value": "pareja/enlace/aldea_santillana","dtype": "product","number": "0" } 
+,
+"a0607": { "index": "000v005v607","type": "alias","value": "enlace/aldea_santillana","dtype": "product","number": "2" } 
+,
+"1500": { "index": "000v005v1500","type": "alias","value": "vis/articles","dtype": "list","number": "20" } 
+,
+"1501": { "index": "000v005v1501","type": "alias","value": "vis/articulos","dtype": "list","number": "20" } 
+,
+"1502": { "index": "000v005v1502","type": "alias","value": "vis/secciones","dtype": "list","number": "25" } 
+,
+"1503": { "index": "000v005v1503","type": "alias","value": "articles","dtype": "list","number": "20" } 
+,
+"1504": { "index": "000v005v1504","type": "alias","value": "article","dtype": "list","number": "20" } 
+,
+"1505": { "index": "000v005v1505","type": "alias","value": "sections","dtype": "list","number": "25" } 
+,
+"1506": { "index": "000v005v1506","type": "alias","value": "all_in_one","dtype": "list","number": "20" } 
+,
+"1507": { "index": "000v005v1507","type": "alias","value": "one_list","dtype": "list","number": "20" } 
+,
+"1508": { "index": "000v005v1508","type": "alias","value": "photos","dtype": "list","number": "30" } 
+,
+"1600": { "index": "000v005v1600","type": "text","value": "vis/articles" } 
+,
+"1601": { "index": "000v005v1601","type": "text","value": "vis/articulos" } 
+,
+"1602": { "index": "000v005v1602","type": "text","value": "vis/secciones" } 
+,
+"1603": { "index": "000v005v1603","type": "text","value": "articulos" } 
+,
+"1604": { "index": "000v005v1604","type": "text","value": "articulo" } 
+,
+"1605": { "index": "000v005v1605","type": "text","value": "nuestras_secciones" } 
+,
+"1606": { "index": "000v005v1606","type": "text","value": "todoenuno" } 
+,
+"1607": { "index": "000v005v1607","type": "text","value": "una_lista" } 
+,
+"1608": { "index": "000v005v1608","type": "text","value": "lista" } 
+,
+"1614": { "index": "000v005v1614","type": "text","value": "secciones" } 
+,
+"1615": { "index": "000v005v1615","type": "text","value": "massecciones" } 
+}
+}
+}
+,
+"regions" : {
+"left": { "index": "002v002","type": "menuitem","otype": "object","value": "" } 
+,
+"right": { "index": "002v004","type": "menuitem","otype": "object","value": "" } 
+}
+,
+"langs" : [ 
+{ "index": "005v000","type": "flag","id": "es","name": "España","hover": "Ir a la página en español","flag": "r_img/flags/brqx_flag_es_2016_320_200.svg","clink": "es" } 
+,
+{ "index": "005v001","type": "flag","id": "en","name": "Inglaterra","hover": "Ir a la página en ingles","flag": "r_img/flags/brqx_flag_en_2016_320_200.svg","clink": "en" } 
+,
+{ "index": "005v002","type": "flag","id": "it","name": "Italia","hover": "Ir a la página en italiano","flag": "r_img/flags/brqx_flag_it_2016_320_200.svg","clink": "it" } 
+,
+{ "index": "005v003","type": "flag","id": "pt","name": "Portugal","hover": "Ir a la página en portugues","flag": "r_img/flags/brqx_flag_pt_2016_320_200.svg","clink": "pt" } 
+,
+{ "index": "005v004","type": "flag","id": "fr","name": "Francia","hover": "Ir a la página en francés","flag": "r_img/flags/brqx_flag_fr_2016_320_200.svg","clink": "fr" } 
+,
+{ "index": "005v005","type": "flag","id": "de","name": "Alemania","hover": "Ir a la página en alemán","flag": "r_img/flags/brqx_flag_de_2016_320_200.svg","clink": "de" } 
+,
+{ "index": "005v006","type": "flag","id": "in","name": "India","hover": "Ir a la página en hindi","flag": "r_img/flags/brqx_flag_in_2016_320_200.svg","clink": "in" } 
+,
+{ "index": "005v007","type": "flag","id": "bn","name": "Bangladesh","hover": "Ir a la página en bengalí","flag": "r_img/flags/brqx_flag_bn_2016_320_200.svg","clink": "bn" } 
+,
+{ "index": "005v008","type": "flag","id": "ja","name": "Japón","hover": "Ir a la página en japones","flag": "r_img/flags/brqx_flag_ja_2016_320_200.svg","clink": "ja" } 
+,
+{ "index": "005v009","type": "flag","id": "zh","name": "China","hover": "Ir a la página en chino","flag": "r_img/flags/brqx_flag_zh_2016_320_200.svg","clink": "zh" } 
+,
+{ "index": "005v010","type": "flag","id": "uk","name": "Ucrania","hover": "Ir a la página en ucraniano","flag": "r_img/flags/brqx_flag_uk_2016_320_200.svg","clink": "uk" } 
+,
+{ "index": "005v011","type": "flag","id": "ca","name": "Cataluña","hover": "Ir a la página en catalan","flag": "r_img/flags/brqx_flag_ca_2016_320_200.svg","clink": "ca" } 
+,
+{ "index": "005v012","type": "flag","id": "ru","name": "Rusia","hover": "Ir a la página en ruso","flag": "r_img/flags/brqx_flag_ru_2016_320_200.svg","clink": "ru" } 
+]
+,
+"diamond_langs" : [ 
+{ "index": "015v000","type": "flag","id": "es","name": "España","hover": "Spain","flag": "r_img/trapeze_flags/brqx_flag_es_2016_320_200.svg","clink": "es" } 
+,
+{ "index": "015v001","type": "flag","id": "en","name": "Inglaterra","hover": "England","flag": "r_img/trapeze_flags/brqx_flag_en_2016_320_200.svg","clink": "en" } 
+,
+{ "index": "015v002","type": "flag","id": "it","name": "Italia","hover": "Italy","flag": "r_img/trapeze_flags/brqx_flag_it_2016_320_200.svg","clink": "it" } 
+,
+{ "index": "015v003","type": "flag","id": "pt","name": "Portugal","hover": "Portugal","flag": "r_img/trapeze_flags/brqx_flag_pt_2016_320_200.svg","clink": "pt" } 
+,
+{ "index": "015v004","type": "flag","id": "fr","name": "Francia","hover": "France","flag": "r_img/trapeze_flags/brqx_flag_fr_2016_320_200.svg","clink": "fr" } 
+,
+{ "index": "015v005","type": "flag","id": "de","name": "Alemania","hover": "Deuchland","flag": "r_img/trapeze_flags/brqx_flag_de_2016_320_200.svg","clink": "de" } 
+,
+{ "index": "015v006","type": "flag","id": "in","name": "India","hover": "India","flag": "r_img/trapeze_flags/brqx_flag_in_2016_320_200.svg","clink": "in" } 
+,
+{ "index": "015v007","type": "flag","id": "bn","name": "Bangladesh","hover": "Bangladesh","flag": "r_img/trapeze_flags/brqx_flag_bn_2016_320_200.svg","clink": "bn" } 
+,
+{ "index": "015v008","type": "flag","id": "ja","name": "Japón","hover": "Japan","flag": "r_img/trapeze_flags/brqx_flag_ja_2016_320_200.svg","clink": "ja" } 
+,
+{ "index": "015v009","type": "flag","id": "zh","name": "China","hover": "China","flag": "r_img/trapeze_flags/brqx_flag_zh_2016_320_200.svg","clink": "zh" } 
+,
+{ "index": "015v010","type": "flag","id": "uk","name": "Ucrania","hover": "Ukraine","flag": "r_img/trapeze_flags/brqx_flag_uk_2016_320_200.svg","clink": "uk" } 
+,
+{ "index": "015v011","type": "flag","id": "ca","name": "Cataluña","hover": "Catalonia","flag": "r_img/trapeze_flags/brqx_flag_ca_2016_320_200.svg","clink": "ca" } 
+,
+{ "index": "015v012","type": "flag","id": "ru","name": "Rusia","hover": "Russia","flag": "r_img/trapeze_flags/brqx_flag_ru_2016_320_200.svg","clink": "ru" } 
+]
+,
+"heart_langs" : [ 
+{ "index": "017v000","type": "flag","id": "es","name": "Spain","hover": "Spain","flag": "r_img/heart_flags/brqx_heart_flag_es_2018_320_200.svg","clink": "es" } 
+,
+{ "index": "017v001","type": "flag","id": "en","name": "England","hover": "England","flag": "r_img/heart_flags/brqx_heart_flag_en_2018_320_200.svg","clink": "en" } 
+,
+{ "index": "017v002","type": "flag","id": "it","name": "Italy","hover": "Italy","flag": "r_img/heart_flags/brqx_heart_flag_it_2018_320_200.svg","clink": "it" } 
+,
+{ "index": "017v003","type": "flag","id": "pt","name": "Portugal","hover": "Portugal","flag": "r_img/heart_flags/brqx_heart_flag_pt_2018_320_200.svg","clink": "pt" } 
+,
+{ "index": "017v004","type": "flag","id": "fr","name": "France","hover": "France","flag": "r_img/heart_flags/brqx_heart_flag_fr_2018_320_200.svg","clink": "fr" } 
+,
+{ "index": "017v005","type": "flag","id": "de","name": "Deuchland","hover": "Deuchland","flag": "r_img/heart_flags/brqx_heart_flag_de_2018_320_200.svg","clink": "de" } 
+,
+{ "index": "017v006","type": "flag","id": "in","name": "India","hover": "India","flag": "r_img/heart_flags/brqx_heart_flag_in_2018_320_200.svg","clink": "in" } 
+,
+{ "index": "017v007","type": "flag","id": "bn","name": "Bangladesh","hover": "Bangladesh","flag": "r_img/heart_flags/brqx_heart_flag_bn_2018_320_200.svg","clink": "bn" } 
+,
+{ "index": "017v008","type": "flag","id": "ja","name": "Japan","hover": "Japan","flag": "r_img/heart_flags/brqx_heart_flag_ja_2018_320_200.svg","clink": "ja" } 
+,
+{ "index": "017v009","type": "flag","id": "zh","name": "China","hover": "China","flag": "r_img/heart_flags/brqx_heart_flag_zh_2018_320_200.svg","clink": "zh" } 
+,
+{ "index": "017v010","type": "flag","id": "uk","name": "Ukraine","hover": "Ukraine","flag": "r_img/heart_flags/brqx_heart_flag_uk_2018_320_200.svg","clink": "uk" } 
+,
+{ "index": "017v011","type": "flag","id": "ca","name": "Catalonia","hover": "Catalonia","flag": "r_img/heart_flags/brqx_heart_flag_ca_2018_320_200.svg","clink": "ca" } 
+,
+{ "index": "017v012","type": "flag","id": "ru","name": "Russia","hover": "Russia","flag": "r_img/heart_flags/brqx_heart_flag_ru_2018_320_200.svg","clink": "ru" } 
+]
+,
+"cookies_warning" : {
+"information": {"index": "016v000","type": "text","value": "","childrens": true,"pull02": {
+"main_cookies_msg": { "index": "016v000v000","type": "item","value": "Este sitio web utiliza cookies para mejorar la experiencia de navegación. Al continuar utilizando este sitio web, acepta las cookies. Al continuar utilizando este sitio web, acepta las cookies. Por favor visite nuestra página de cookies." } 
+,
+"cookies_notice": { "index": "016v000v001","type": "item","value": "Aviso de cookies" } 
+,
+"page_information": { "index": "016v000v002","type": "item","value": "Presione aquí para ver la información de la página" } 
+,
+"cookies_information": { "index": "016v000v003","type": "item","value": "Presione aquí para ver información sobre cookies" } 
+,
+"cookies_lang": { "index": "016v000v004","type": "item","value": "es/policy" } 
+}
+}
+,
+"images": {"index": "016v001","type": "text","value": "","childrens": true,"pull02": {
+"cookie_yes": { "index": "016v001v000","type": "image","otype": "","img": "r_img/symbols/brqx_2018_accept_symbol_blue_0050.svg" } 
+,
+"cookie_no": { "index": "016v001v001","type": "image","otype": "","img": "r_img/symbols/brqx_2018_close_symbol_blue_0050.svg" } 
+}
+}
+}
+}
